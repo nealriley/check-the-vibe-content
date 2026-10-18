@@ -1,0 +1,9 @@
+# VS Code integration research
+
+The existing graph importer reads `pieces/*/index.md` and keeps Ladybug at `.cache/work-graph.lbdb`. The browser viewer owns the database while it runs and rebuilds on index changes. At the start of this build the source contained 22 pieces, one confirmed series, and 17 piece links. Planning states were optional and none were assigned.
+
+The [VS Code Tree View API](https://code.visualstudio.com/api/extension-guides/tree-view) suits the Explorer summary. A [Webview panel](https://code.visualstudio.com/api/extension-guides/webview) suits the existing Cytoscape map; it must load local resources through `asWebviewUri` and use message passing to request an index open. The [workspace activation event](https://code.visualstudio.com/api/references/activation-events) can avoid starting the extension in unrelated workspaces, while a runtime project check guards commands. VS Code supports [local VSIX installation](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace) without Marketplace publication and [workspace tasks](https://code.visualstudio.com/docs/debugtest/tasks) for the rebuild command.
+
+The extension reads an atomic JSON projection written by the graph builder. This keeps the native Ladybug dependency and its single-writer lock out of VS Code. The source indexes remain authoritative, and the extension has no file-writing API calls. The current browser view and VS Code panel share the graph renderer; only their data delivery and source-opening actions differ. The local Writing Desk extension was inspected as a packaging example, but this project has no runtime dependency on it.
+
+The development-host smoke test opens the graph panel and a piece index. The packaged VSIX was installed locally and the graph panel was checked in VS Code with all 22 pieces visible; **Open index.md** opened the selected source file.

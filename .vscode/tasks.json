@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Check the Vibe: Rebuild Graph",
+      "type": "shell",
+      "command": "npm run graph:build",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "Check the Vibe: Build VS Code Extension",
+      "type": "shell",
+      "command": "npm run vscode:build",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}

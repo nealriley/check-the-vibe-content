@@ -1,0 +1,47 @@
+{
+  "name": "check-the-vibe-vscode",
+  "displayName": "Check the Vibe",
+  "description": "Browse the Check the Vibe writing graph and open piece indexes.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "private": true,
+  "license": "UNLICENSED",
+  "repository": { "type": "git", "url": "git@github.com:nealriley/check-the-vibe-content.git" },
+  "engines": { "vscode": "^1.95.0" },
+  "main": "./extension.js",
+  "activationEvents": ["workspaceContains:graph/cli.mjs"],
+  "capabilities": { "untrustedWorkspaces": { "supported": true } },
+  "contributes": {
+    "commands": [
+      { "command": "ctv.openGraph", "title": "Open Work Graph", "category": "Check the Vibe" },
+      { "command": "ctv.openIndex", "title": "Open Piece Index", "category": "Check the Vibe" },
+      { "command": "ctv.refreshGraph", "title": "Refresh Work Graph", "category": "Check the Vibe", "icon": "$(refresh)" }
+    ],
+    "views": {
+      "explorer": [
+        { "id": "ctvPieces", "name": "Check the Vibe", "when": "ctv.workspace" }
+      ]
+    },
+    "menus": {
+      "commandPalette": [
+        { "command": "ctv.openGraph", "when": "ctv.workspace" },
+        { "command": "ctv.openIndex", "when": "ctv.workspace" },
+        { "command": "ctv.refreshGraph", "when": "ctv.workspace" }
+      ],
+      "view/title": [
+        { "command": "ctv.openGraph", "when": "view == ctvPieces && ctv.workspace", "group": "navigation" },
+        { "command": "ctv.refreshGraph", "when": "view == ctvPieces && ctv.workspace", "group": "navigation" }
+      ]
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.js",
+    "test:integration": "node test/run.mjs",
+    "package": "npm run build && vsce package --no-dependencies --out dist/check-the-vibe.vsix"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "4.0.0",
+    "@vscode/test-electron": "3.1.0"
+  }
+}

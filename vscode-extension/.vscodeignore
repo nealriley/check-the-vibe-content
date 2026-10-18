@@ -1,0 +1,6 @@
+node_modules/**
+test/**
+scripts/**
+.vscode-test/**
+dist/check-the-vibe.vsix
+*.log

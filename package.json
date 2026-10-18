@@ -1,0 +1,22 @@
+{
+  "name": "check-the-vibe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "graph": "node graph/cli.mjs serve",
+    "graph:build": "node graph/cli.mjs build",
+    "test": "node --test graph/*.test.mjs vscode-extension/test/*.test.js",
+    "vscode:build": "npm run build --prefix vscode-extension",
+    "vscode:package": "npm run package --prefix vscode-extension"
+  },
+  "dependencies": {
+    "@ladybugdb/core": "0.21.2",
+    "chokidar": "^4.0.3",
+    "cytoscape": "^3.33.1",
+    "markdown-it": "^14.1.0",
+    "yaml": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
