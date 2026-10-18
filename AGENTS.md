@@ -14,4 +14,4 @@ The optional `planning` list in a piece's front matter supports `active` and `pu
 
 The VS Code companion reads `.cache/work-graph.json` and opens the source indexes. After changing graph metadata or piece links, rebuild with `npm run graph:build`; if the browser viewer is running, its watcher performs the rebuild instead. Check the snapshot or viewer for sync errors. Do not write to the database or JSON snapshot by hand. Build and installation instructions are in [docs/structure.md](docs/structure.md).
 
-In GitHub Codespaces, `.devcontainer/devcontainer.json` builds the graph on creation and starts the browser viewer on each start. The running viewer owns the Ladybug cache and watches indexes. Check its preview or `.cache/codespaces-graph.log` for errors; do not run a separate `graph:build` while it is serving.
+In GitHub Codespaces, the dev container runs the browser viewer as its main service. It builds the graph on startup and watches indexes. Check its preview or `.cache/codespaces-graph.log` for errors; do not run a separate `graph:build` while it is serving.
