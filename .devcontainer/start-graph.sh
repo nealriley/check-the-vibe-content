@@ -12,17 +12,14 @@ fi
 
 mkdir -p .cache
 log_file=".cache/codespaces-graph.log"
-nohup env CTV_GRAPH_HOST=0.0.0.0 node graph/cli.mjs serve > "$log_file" 2>&1 < /dev/null &
-graph_pid=$!
+# The lifecycle shell exits after this command. Launch from a nohup shell so the
+# viewer remains alive after Codespaces finishes the postStartCommand.
+nohup bash -c 'env CTV_GRAPH_HOST=0.0.0.0 node graph/cli.mjs serve > "$1" 2>&1 < /dev/null &' _ "$log_file" > /dev/null 2>&1
 
 for _ in {1..60}; do
   if curl --fail --silent "$graph_url" > /dev/null; then
     echo "Check the Vibe graph is ready on port ${graph_port}."
     exit 0
-  fi
-  if ! kill -0 "$graph_pid" 2> /dev/null; then
-    cat "$log_file" >&2
-    exit 1
   fi
   sleep 0.5
 done
