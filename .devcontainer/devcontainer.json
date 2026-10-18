@@ -1,0 +1,13 @@
+{
+  "name": "Check the Vibe",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "forwardPorts": [4317],
+  "portsAttributes": {
+    "4317": {
+      "label": "Check the Vibe graph",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postCreateCommand": "npm ci && npm run graph:build",
+  "postStartCommand": "bash .devcontainer/start-graph.sh"
+}

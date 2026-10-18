@@ -12,6 +12,12 @@ npm run graph
 
 `graph:build` creates the ignored Ladybug cache and a JSON snapshot. `graph` serves the browser viewer at <http://127.0.0.1:4317> and keeps both caches current while it runs. Use one rebuild owner at a time.
 
+## GitHub Codespaces
+
+Create a Codespace from `main`. The dev container installs the locked dependencies and builds the graph once, then starts the viewer on every Codespace start. Port 4317 is forwarded and the graph opens in a VS Code preview. The viewer watches piece indexes and rebuilds the cache when they change. Its log is in `.cache/codespaces-graph.log`.
+
+Codespaces' forwarded port should stay **Private**, since the viewer can open piece indexes. If the preview is closed, reopen **Check the Vibe graph** from the **Ports** tab. The cache and log are local to the Codespace and ignored by Git.
+
 ## VS Code companion
 
 ```bash

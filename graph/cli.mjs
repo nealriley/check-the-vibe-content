@@ -130,7 +130,7 @@ function serve() {
     await watcher.close();
     store.close();
   });
-  server.listen(port, '127.0.0.1', () => {
+  server.listen(port, process.env.CTV_GRAPH_HOST ?? '127.0.0.1', () => {
     const address = server.address();
     console.log(`Check the Vibe graph: http://127.0.0.1:${address.port}`);
   });
