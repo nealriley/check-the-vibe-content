@@ -10,7 +10,7 @@ series: "How to Talk About AI"
 
 A selective history of the named AI field, from the Dartmouth proposal through symbolic systems, disappointments and renewed funding, statistical learning, deep learning, and today's conversational products. The goal is to give readers landmarks they can use when a current claim is presented as entirely new or historically inevitable.
 
-The essay should resist a tidy march of progress. Earlier cultural and mechanical dreams belong in [The Old Dream of Thinking Machines](../the-old-dream-of-thinking-machines/index.md); this piece follows the research field after it acquired a name.
+The essay should resist a tidy march of progress. Earlier cultural and mechanical dreams belong in [A Brief History of Thinking Machines](../a-brief-history-of-thinking-machines/index.md); this piece follows the research field after it acquired a name.
 
 ## Source material
 

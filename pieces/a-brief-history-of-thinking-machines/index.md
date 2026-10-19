@@ -1,10 +1,10 @@
 ---
-title: "The Old Dream of Thinking Machines"
+title: "A Brief History of Thinking Machines"
 intake_id: CTV-025
 series: "How to Talk About AI"
 ---
 
-# The Old Dream of Thinking Machines
+# A Brief History of Thinking Machines
 
 ## The idea
 

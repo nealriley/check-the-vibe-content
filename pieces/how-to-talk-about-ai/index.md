@@ -15,7 +15,7 @@ This is a piece in its own right, not a folder or plan for the other pieces. It 
 ## Themes to bring together
 
 - **Language:** [the trouble with the word AI](../the-trouble-with-the-word-ai/index.md) and [the different things called AI](../ai-is-not-one-thing/index.md).
-- **History:** [older thinking-machine dreams](../the-old-dream-of-thinking-machines/index.md), [feedback and cybernetics](../feedback-control-and-cybernetics/index.md), and [the named field's development](../when-ai-got-its-name/index.md).
+- **History:** [older thinking-machine dreams](../a-brief-history-of-thinking-machines/index.md), [feedback and cybernetics](../feedback-control-and-cybernetics/index.md), and [the named field's development](../when-ai-got-its-name/index.md).
 - **Capability and mechanism:** [the question of intelligence](../on-intelligence/index.md), [how machines learn](../how-machines-learn/index.md), and [what happens from prompt to output](../from-prompt-to-output/index.md).
 
 The opening can promise clearer questions, rather than a final verdict on what AI is or where it is going. Each linked piece should still stand alone.
