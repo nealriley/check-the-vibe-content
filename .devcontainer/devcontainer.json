@@ -4,10 +4,11 @@
   "overrideCommand": false,
   "workspaceFolder": "/workspaces/check-the-vibe-content",
   "postAttachCommand": "bash /workspaces/check-the-vibe-content/.devcontainer/install-vscode-extension.sh",
+  "forwardPorts": [4317],
   "portsAttributes": {
     "4317": {
       "label": "Check the Vibe graph",
-      "onAutoForward": "silent"
+      "onAutoForward": "openBrowser"
     }
   }
 }
