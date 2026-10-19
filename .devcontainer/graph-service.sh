@@ -2,6 +2,8 @@
 set -euo pipefail
 
 workspace_dir="${CTV_WORKSPACE_DIR:-/workspaces/check-the-vibe-content}"
+attach_signal=/tmp/ctv-codespaces-attached
+rm -f "$attach_signal"
 while [[ ! -f "$workspace_dir/package-lock.json" ]]; do
   sleep 1
 done
@@ -14,6 +16,16 @@ log_file=.cache/codespaces-graph.log
 while ! npm ci >> "$log_file" 2>&1; do
   echo "Dependency install failed; retrying in 10 seconds." | tee -a "$log_file" >&2
   sleep 10
+done
+
+# Build as soon as the Codespace is created. Keep serving even if source
+# metadata is invalid so the viewer can display the sync error.
+node graph/cli.mjs build >> "$log_file" 2>&1 || true
+
+# Codespaces forwards ports after the editor attaches. Start listening only
+# then, so onAutoForward can open the graph in the user's browser.
+while [[ ! -f "$attach_signal" ]]; do
+  sleep 1
 done
 
 child_pid=
