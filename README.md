@@ -14,7 +14,7 @@ npm run graph
 
 ## GitHub Codespaces
 
-Create a Codespace from `main`. Its container installs the locked dependencies and builds the graph cache. When VS Code attaches, the viewer starts, Codespaces automatically forwards port 4317, and the graph opens in a browser tab. On first use, trust the folder to complete startup. The viewer then watches piece indexes for changes. Startup and sync messages are in `.cache/codespaces-graph.log`.
+Create a Codespace from `main`. Its container installs the locked dependencies and builds the graph cache. When VS Code attaches, the viewer starts, Codespaces automatically forwards port 4317, and the graph opens in a browser tab. The same attach step packages and installs the project VS Code extension in the Codespace, so its **Check the Vibe** Explorer view is available there. On first use, trust the folder to complete startup. The viewer then watches piece indexes for changes. Startup and sync messages are in `.cache/codespaces-graph.log`; extension installation messages are in `.cache/codespaces-extension.log`.
 
 Codespaces' forwarded port should stay **Private**, since the viewer can open piece indexes. If the graph tab is closed, reopen **Check the Vibe graph** from the **Ports** tab. The cache and log are local to the Codespace and ignored by Git.
 
@@ -23,7 +23,7 @@ The graph port is deliberately absent from `forwardPorts` in the dev container c
 ## VS Code companion
 
 ```bash
-npm install --prefix vscode-extension
+npm ci --prefix vscode-extension
 npm run vscode:package
 code --install-extension vscode-extension/dist/check-the-vibe.vsix
 ```

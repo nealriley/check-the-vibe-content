@@ -8,6 +8,7 @@
   "license": "UNLICENSED",
   "repository": { "type": "git", "url": "git@github.com:nealriley/check-the-vibe-content.git" },
   "engines": { "vscode": "^1.95.0" },
+  "extensionKind": ["workspace"],
   "main": "./extension.js",
   "activationEvents": ["workspaceContains:graph/cli.mjs"],
   "capabilities": { "untrustedWorkspaces": { "supported": true } },

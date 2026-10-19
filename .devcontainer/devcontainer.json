@@ -3,7 +3,7 @@
   "build": { "dockerfile": "Dockerfile" },
   "overrideCommand": false,
   "workspaceFolder": "/workspaces/check-the-vibe-content",
-  "postAttachCommand": "touch /tmp/ctv-codespaces-attached",
+  "postAttachCommand": "bash /workspaces/check-the-vibe-content/.devcontainer/install-vscode-extension.sh",
   "portsAttributes": {
     "4317": {
       "label": "Check the Vibe graph",
