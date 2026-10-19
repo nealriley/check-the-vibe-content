@@ -2,7 +2,7 @@
   "name": "check-the-vibe-vscode",
   "displayName": "Check the Vibe",
   "description": "Browse the Check the Vibe writing graph and open piece indexes.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "local",
   "private": true,
   "license": "UNLICENSED",
