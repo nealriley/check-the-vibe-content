@@ -14,11 +14,9 @@ npm run graph
 
 ## GitHub Codespaces
 
-Create a Codespace from `main`. Its image includes the bundled project VS Code extension before the editor starts; the attach step verifies it and installs it if necessary. The container installs the locked dependencies and builds the graph cache. Once attach setup finishes, the viewer starts and Codespaces forwards port 4317 to open the graph in a browser tab. On first use, trust the folder to complete startup. The viewer then watches piece indexes for changes. Startup and sync messages are in `.cache/codespaces-graph.log`; extension installation messages are in `.cache/codespaces-extension.log`.
+Create a Codespace from `main`. Its image includes the bundled project VS Code extension before the editor starts; the attach step verifies it and installs it if necessary. The container installs the locked dependencies and builds the graph cache. Once attach setup finishes, the viewer starts and the extension opens the graph in a browser tab through VS Code's port forwarding. On first use, trust the folder to complete startup. The viewer then watches piece indexes for changes. Startup and sync messages are in `.cache/codespaces-graph.log`; extension installation messages are in `.cache/codespaces-extension.log`.
 
 Codespaces' forwarded port should stay **Private**, since the viewer can open piece indexes. If the graph tab is closed, reopen **Check the Vibe graph** from the **Ports** tab. The cache and log are local to the Codespace and ignored by Git.
-
-The graph port is deliberately absent from `forwardPorts` in the dev container configuration. Pre-forwarding it prevents `onAutoForward` from opening the browser tab when the viewer starts.
 
 ## VS Code companion
 
@@ -28,7 +26,7 @@ npm run vscode:package
 code --install-extension vscode-extension/dist/check-the-vibe.vsix
 ```
 
-Open this folder in VS Code. The **Check the Vibe** Explorer view groups pieces by planning state and series. **Check the Vibe: Open Work Graph** opens the full map. Selecting a piece opens its source `index.md`. The extension only reads the graph snapshot and source indexes; make changes in the source files, then rebuild. See [the structure guide](docs/structure.md) for the complete workflow.
+Open this folder in VS Code. The **Check the Vibe** Explorer view groups pieces by planning state and series. **Check the Vibe: Open Work Graph** opens the full map. Selecting a piece opens its source `index.md`. The extension reads the graph snapshot and source indexes; in Codespaces it also opens the browser viewer when ready. Make changes in the source files, then rebuild. See [the structure guide](docs/structure.md) for the complete workflow.
 
 Run `npm test` for importer, cache, and view-model checks. The VS Code extension's development-host check is `npm run test:integration --prefix vscode-extension`.
 

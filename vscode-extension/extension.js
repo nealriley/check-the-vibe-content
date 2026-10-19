@@ -71,6 +71,7 @@ function activate(context) {
   let panelReady = false;
   let watchers = [];
   let refreshTimer = null;
+  let openingCodespacesViewer = false;
   const tree = new PiecesTree();
   const view = vscode.window.createTreeView('ctvPieces', { treeDataProvider: tree });
   context.subscriptions.push(view, tree.changed);
@@ -128,6 +129,33 @@ function activate(context) {
       }
     }
     loadFeed();
+    if (root) void openCodespacesViewer();
+  }
+
+  async function openCodespacesViewer() {
+    if (openingCodespacesViewer || (process.env.CODESPACES !== 'true' && vscode.env.remoteName !== 'codespaces')) return;
+    if (Date.now() - context.workspaceState.get('ctv.viewerOpenedAt', 0) < 5 * 60 * 1000) return;
+    openingCodespacesViewer = true;
+    try {
+      for (let attempt = 0; attempt < 90 && root; attempt += 1) {
+        try {
+          const response = await fetch('http://127.0.0.1:4317/api/graph', { signal: AbortSignal.timeout(1500) });
+          await response.body?.cancel();
+          if (response.ok) {
+            // openExternal forwards localhost from the remote extension host.
+            const opened = await vscode.env.openExternal(vscode.Uri.parse('http://127.0.0.1:4317/'));
+            if (opened) await context.workspaceState.update('ctv.viewerOpenedAt', Date.now());
+            else console.warn('Check the Vibe: VS Code could not open the graph browser tab.');
+            return;
+          }
+        } catch (error) {
+          if (attempt === 89) console.warn(`Check the Vibe: graph browser unavailable: ${error.message}`);
+        }
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+      }
+    } finally {
+      openingCodespacesViewer = false;
+    }
   }
 
   async function openIndex(slug) {

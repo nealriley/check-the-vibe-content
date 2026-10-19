@@ -23,7 +23,7 @@ done
 node graph/cli.mjs build >> "$log_file" 2>&1 || true
 
 # Codespaces forwards ports after the editor attaches. Start listening only
-# then, so onAutoForward can open the graph in the user's browser.
+# then; the project extension opens the ready viewer in the user's browser.
 while [[ ! -f "$attach_signal" ]]; do
   sleep 1
 done
