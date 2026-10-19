@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Let the graph service start immediately so Codespaces can open its browser tab.
-touch /tmp/ctv-codespaces-attached
+# Start the graph service after attach setup, when the editor can forward its port.
+trap 'touch /tmp/ctv-codespaces-attached' EXIT
 
 workspace_dir="${CTV_WORKSPACE_DIR:-/workspaces/check-the-vibe-content}"
 cd "$workspace_dir"
@@ -37,8 +37,12 @@ if [[ -z "$code_cli" || ! -x "$code_cli" ]]; then
   exit 1
 fi
 
-echo "Installing the extension with $code_cli"
-"$code_cli" --install-extension vscode-extension/dist/check-the-vibe.vsix --force
 extension_version="$(node -p "require('./vscode-extension/package.json').version")"
+if ! "$code_cli" --list-extensions --show-versions | grep -Fxq "local.check-the-vibe-vscode@$extension_version"; then
+  echo "Installing the extension with $code_cli"
+  "$code_cli" --install-extension vscode-extension/dist/check-the-vibe.vsix --force
+else
+  echo "The declared Codespace extension is already installed."
+fi
 "$code_cli" --list-extensions --show-versions | grep -Fx "local.check-the-vibe-vscode@$extension_version"
 echo "Check the Vibe VS Code extension is installed in this Codespace."
