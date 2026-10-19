@@ -2,6 +2,7 @@
 title: "The Trouble with the Word AI"
 intake_id: CTV-024
 series: "How to Talk About AI"
+planning: [active]
 ---
 
 # The Trouble with the Word AI
