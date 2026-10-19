@@ -12,6 +12,16 @@ Related pieces may use a plain **Possible series: Name** note. For confirmed ser
 
 The optional `planning` list in a piece's front matter supports `active` and `published`; both may apply. Leave it out unless the writer explicitly assigns a state. A piece with neither state appears in the graph viewer's Backlog. See [docs/structure.md](docs/structure.md) for the local graph commands. The graph database is a rebuildable cache of piece indexes; edit the indexes, not the cache. Research and non-piece links are not represented in this first graph.
 
-The VS Code companion reads `.cache/work-graph.json` and opens the source indexes. After changing graph metadata or piece links, rebuild with `npm run graph:build`; if the browser viewer is running, its watcher performs the rebuild instead. Check the snapshot or viewer for sync errors. Do not write to the database or JSON snapshot by hand. Build and installation instructions are in [docs/structure.md](docs/structure.md).
+The VS Code companion reads `.cache/work-graph.json` and opens the source indexes. After changing graph metadata or piece links, rebuild with `npm run graph:build` only when the browser viewer is stopped; while it runs, its watcher performs the rebuild instead. Check the snapshot or viewer for sync errors. Do not write to the database or JSON snapshot by hand.
+
+## Running the graph locally on macOS
+
+From the repository root, run `npm ci` on first use or after dependencies change, then run `npm run graph`. Keep that terminal open. The command rebuilds the graph on startup and watches `pieces/*/index.md` for changes. Open <http://127.0.0.1:4317/> in a browser. Stop the viewer with Ctrl-C. Run only one viewer at a time: Ladybug allows one process to own the cache. For a one-off rebuild when the viewer is stopped, use `npm run graph:build`.
+
+## Running in VS Code on macOS
+
+Open the repository folder in VS Code (`code .` from the repository root, or **File > Open Folder**). Run `npm ci` in its integrated terminal if needed. Start the browser viewer with **Terminal > Run Task > Check the Vibe: Run Graph Viewer**, or run `npm run graph` in the integrated terminal. Open <http://127.0.0.1:4317/> in your browser; terminate the task or press Ctrl-C in the terminal to stop it.
+
+The project extension reads the JSON snapshot and shows the **Check the Vibe** Explorer view. Run **Check the Vibe: Open Work Graph** from the Command Palette for its graph panel; selecting a piece opens its `index.md`. If the extension is not installed on this Mac, run `npm ci --prefix vscode-extension`, `npm run vscode:package`, and `code --install-extension vscode-extension/dist/check-the-vibe.vsix` from the repository root, then reload VS Code. When the browser viewer is stopped, **Check the Vibe: Rebuild Graph** runs a one-off rebuild. While the viewer is running, use its automatic rebuild instead. See [docs/structure.md](docs/structure.md) for graph rules and extension development instructions.
 
 In GitHub Codespaces, the dev container builds the graph cache on creation. After VS Code attaches, it starts the browser viewer and opens the graph tab through automatic port forwarding. It then watches indexes. Check the browser graph or `.cache/codespaces-graph.log` for errors; do not run a separate `graph:build` while it is serving. Keep port 4317 out of `forwardPorts` so `onAutoForward` can open the browser.

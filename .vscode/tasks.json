@@ -2,6 +2,14 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "Check the Vibe: Run Graph Viewer",
+      "type": "shell",
+      "command": "npm run graph",
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
       "label": "Check the Vibe: Rebuild Graph",
       "type": "shell",
       "command": "npm run graph:build",
