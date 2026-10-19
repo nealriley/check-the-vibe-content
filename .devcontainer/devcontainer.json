@@ -4,7 +4,6 @@
   "overrideCommand": false,
   "workspaceFolder": "/workspaces/check-the-vibe-content",
   "postAttachCommand": "touch /tmp/ctv-codespaces-attached",
-  "forwardPorts": [4317],
   "portsAttributes": {
     "4317": {
       "label": "Check the Vibe graph",
