@@ -4,7 +4,7 @@ Read [docs/structure.md](docs/structure.md) before creating or reorganising a pi
 
 When starting a piece, create `pieces/<short-descriptive-name>/` with `index.md`, `drafts/`, and `final/`. Give the index a working title, a short description, and links to its source material. Include the intake ID or contributing IDs if there are any. Keep context, research, freewriting, and other supporting material in whatever form helps that particular piece.
 
-Do not impose a fixed writing workflow, output format, or number of drafts. Do not turn a pending or rejected intake entry into a piece without the writer's decision. Preserve the original source location when bringing material from another project into this one.
+Do not impose a fixed writing workflow, output format, or number of drafts. Do not turn a pending or rejected intake entry into a piece without the writer's decision. When a piece uses material from another local project, **copy the files into its own folder** before linking them in `index.md`: put legacy drafts in `drafts/` and background material in `research/source-material/`. Record the original project paths as provenance in the index, and leave the originals untouched. Do not leave index links pointing outside this repository; Codespaces cannot read sibling folders from this Mac. Run `npm run content:check` after changing piece indexes.
 
 The writer is reviewing `intake.md` in order. When they choose an intake entry, create the piece, then remove that entry and every earlier entry still in the register. Treat earlier entries as passed over; leave later entries alone. Keep the chosen entry's ID and source link in its `index.md`. Do not remove or alter the source files in their original projects.
 

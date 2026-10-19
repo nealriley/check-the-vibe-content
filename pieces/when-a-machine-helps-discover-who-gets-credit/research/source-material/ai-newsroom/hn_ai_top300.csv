@@ -1,0 +1,52 @@
+rank,title,url,score,comments,hn_link,relevance
+3,A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices,https://machinelearning.apple.com/research/distributed-gpu-cloud,126,49,https://news.ycombinator.com/item?id=50070593,title+content match
+8,Show HN: Use your OpenAI subscription to create audiobooks,https://pdftomp3.com/connect-ai/,111,56,https://news.ycombinator.com/item?id=50069337,title+content match
+11,Character.ai files for Chapter 11 bankruptcy,https://blog.character.ai/an-update-on-character-ai/,107,49,https://news.ycombinator.com/item?id=50068036,title+content match
+12,AI is a tool and using it well takes skill,https://yyhh.org/blog/2026/10/ai-is-a-tool/,520,417,https://news.ycombinator.com/item?id=50063427,title+content match
+17,Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X,https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html,279,156,https://news.ycombinator.com/item?id=50063365,title match (link unreachable/bot-blocked)
+22,Janas: Run LLMs larger than RAM by streaming experts from SSD,https://github.com/prabanta-dev/janas,195,70,https://news.ycombinator.com/item?id=50063717,title+content match
+27,Character.ai Files for Bankruptcy,https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney,134,97,https://news.ycombinator.com/item?id=50069942,title+content match
+29,Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents,https://news.ycombinator.com/item?id=50059096,148,104,https://news.ycombinator.com/item?id=50059096,text-post
+31,A look at the math that OpenAI claims computes faster Fourier transforms,https://www.argmin.net/p/faster-fourier-transforms,214,133,https://news.ycombinator.com/item?id=50065932,title+content match
+34,AI models can provably hide arbitrary capabilities,https://arxiv.org/abs/2610.13928,259,121,https://news.ycombinator.com/item?id=50065692,title+content match
+38,"Kevin Kelly's 2016 AI Predictions, 10 Years Later",https://taylor.town/kk-ai-2026,204,80,https://news.ycombinator.com/item?id=50057668,title+content match
+43,Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p,https://github.com/SaarthurR/atticus-mac,112,23,https://news.ycombinator.com/item?id=50049588,title+content match
+53,QGIS enacts moratorium on AI contributions,https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387,380,406,https://news.ycombinator.com/item?id=50054751,title+content match
+56,Ask HN: Do you want a router that has DD-WRT pre-installed?,https://news.ycombinator.com/item?id=50039291,148,143,https://news.ycombinator.com/item?id=50039291,text-post
+60,The gap in shared understanding of LLM capability is widening,https://twitter.com/karpathy/status/2109361546505966046,707,1031,https://news.ycombinator.com/item?id=50047422,title+content match
+61,China is building AI data centers at speed as the US wrestles with the costs,https://mezha.net/eng/news/mezha-28304fbbe08e489bfe006d9c_china_is_building/,4,1,https://news.ycombinator.com/item?id=50070872,title+content match
+68,"AI coding agents generate more code, but not more software",https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/,348,291,https://news.ycombinator.com/item?id=50059523,title+content match
+70,'AI' Is Not a Tool by Rich Hickey,https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e,292,154,https://news.ycombinator.com/item?id=50060269,title+content match
+85,Using AI for just 10 minutes erodes your ability to persist at hard things,https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things,181,146,https://news.ycombinator.com/item?id=50041765,title+content match
+99,Chip stocks slide after Broadcom boss likens AI investing to 'casino',https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt,4,0,https://news.ycombinator.com/item?id=50069667,title+content match
+104,"Reverse engineer anything with agents, from app behavior down to native binaries",https://github.com/morluto/rea,94,32,https://news.ycombinator.com/item?id=50058850,title+content match
+116,Sharing AI progress in mathematics,https://openai.com/index/sharing-ai-progress-in-mathematics/,1359,1538,https://news.ycombinator.com/item?id=49984923,title+content match
+118,500B tokens later: Letting AI agents decompile a first-person shooter,https://momo5502.com/posts/2026-10-09-game-decompilation/,212,152,https://news.ycombinator.com/item?id=50039092,title+content match
+125,AI Company Lets Cops Pinpoint Specific Houses Based on a Single Interior Photo,https://www.404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo/,22,3,https://news.ycombinator.com/item?id=50065062,title+content match
+142,The CEO's of Broadcom and Intel Say the Quiet Part Out Loud about AI and ROI,https://wolfstreet.com/2026/10/12/ceos-of-broadcom-intel-say-the-quiet-part-out-loud-about-ai-and-roi/,31,8,https://news.ycombinator.com/item?id=50063707,title match (link unreachable/bot-blocked)
+153,Software engineers don't get to be Luddites about AI,https://www.seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/,27,22,https://news.ycombinator.com/item?id=50066860,title+content match
+154,I think I found a planet nobody knew existed. I used Claude Code to find it,https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9,301,132,https://news.ycombinator.com/item?id=50002665,title match
+157,"""Robot"" Is a Social Construct: Why Your Dishwasher Is Not a Robot",https://robotgirlgang.com/2026/10/08/robot-is-a-social-construct-why-your-dishwasher-is-not-a-robot/,53,71,https://news.ycombinator.com/item?id=50041667,title+content match
+169,I turned my unused Kindle into a photo frame with GPT-6 Astra,https://nirajrajgor.com/blog/kindle-photo-frame-with-ai,144,100,https://news.ycombinator.com/item?id=50064318,title+content match
+177,Talorys – A self-hosted personal AI agent on Cloudflare's free tier,https://github.com/rociiu/talorys,328,155,https://news.ycombinator.com/item?id=50031614,title+content match
+178,Mistral Large 4,https://mistral.ai/news/mistral-large-4/\,2042,1213,https://news.ycombinator.com/item?id=49977979,title match (link unreachable/bot-blocked)
+206,"Show HN: Let your AI agents paint big arrows, boxes and text on your screen",https://github.com/franzenzenhofer/big-arrow-on-the-screen,418,196,https://news.ycombinator.com/item?id=50018817,title+content match
+208,"OpenAI, the Partition Principle, and Mathematics",https://karagila.org/2026/openai-pp/,211,314,https://news.ycombinator.com/item?id=50013902,title+content match
+209,Audit of OpenAI's Navier-Stokes Formalization: Weak Bochner vs. Clay Statement C,https://github.com/bp-purana52127/openai-navier-stokes-critique/blob/main/README.md,6,1,https://news.ycombinator.com/item?id=50058046,title+content match
+211,Decentralizing Hugging Face and open model distribution,https://github.com/pirateface/pirateface_hub,5,0,https://news.ycombinator.com/item?id=50057991,title+content match
+215,Tell HN: GitHub refuses to remove cracked copies of my software after a month,https://news.ycombinator.com/item?id=49982498,579,346,https://news.ycombinator.com/item?id=49982498,text-post
+217,Canadian AI company turns away from U.S. government work amid trade tensions,https://globalnews.ca/news/12098107/canadian-ai-company-caseway-turns-away-u-s/,10,1,https://news.ycombinator.com/item?id=50064274,title+content match
+238,"SpaceXSI: Unified plans across Grok, Cursor, and X Premium",https://x.ai/pricing,11,2,https://news.ycombinator.com/item?id=50064808,title+content match
+242,"OpenAI fires three safety researchers for ""mishandling research information""",https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/,366,229,https://news.ycombinator.com/item?id=50018350,title+content match
+247,Nvidia in talks to acquire US 'open' model startup Reflection AI,https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a,178,115,https://news.ycombinator.com/item?id=50035886,title match (link unreachable/bot-blocked)
+252,Phishing emails are now baiting your AI assistant,https://www.malwarebytes.com/blog/ai/2026/10/phishing-emails-are-baiting-your-ai-assistant,11,0,https://news.ycombinator.com/item?id=50061773,title+content match
+253,AI-ready biological data: $1.8B global commitment,https://biohub.org/news/virtual-biology-initiative-expansion/,150,20,https://news.ycombinator.com/item?id=50011999,title+content match
+254,What mathematicians should know about the Lean Theorem Prover: reliability & AI,https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/,206,58,https://news.ycombinator.com/item?id=50024090,title+content match
+260,Can you use autoregressive diffusion to generate market data?,https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/,186,57,https://news.ycombinator.com/item?id=50021410,title+content match
+265,Nicolas Cage says he won't work with Amazon again over AI dispute,https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute,98,36,https://news.ycombinator.com/item?id=50041873,title+content match
+280,Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?,https://news.ycombinator.com/item?id=49985548,424,664,https://news.ycombinator.com/item?id=49985548,text-post
+281,OpenAI withdraws three mathematical results,https://twitter.com/danintheory/status/2108065033070789090,380,611,https://news.ycombinator.com/item?id=50002650,title+content match
+285,Typesafe AI raises $870M at $7.5B,https://typesafe.ai/blog/series-ai,444,356,https://news.ycombinator.com/item?id=50023450,title+content match
+286,"Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/,184,93,https://news.ycombinator.com/item?id=50019056,title+content match
+287,Show HN: LLMxRay an open-source observability tool for LLMs,https://github.com/LogneBudo/llmxray,11,0,https://news.ycombinator.com/item?id=50047905,title+content match
+289,"Linus Torvalds ""Did What I Preach"" Used AI to Make Code Decipherabl, Find Bugs",https://www.phoronix.com/news/Linus-Torvalds-Assoc-Array,10,0,https://news.ycombinator.com/item?id=50068210,title+content match

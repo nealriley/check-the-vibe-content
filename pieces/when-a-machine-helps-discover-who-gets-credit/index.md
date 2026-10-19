@@ -13,6 +13,12 @@ The intake idea came from a dated headline collection, not a developed argument.
 
 ## Starting material
 
-- [AI newsroom selection](../../../ai-newsroom/hn_ai_top300.csv), especially ranked items 154, 208–209, 254, 281, and 286. These are leads to investigate, not verified sources for the final piece.
+- [AI newsroom selection](research/source-material/ai-newsroom/hn_ai_top300.csv), especially ranked items 154, 208–209, 254, 281, and 286. These are leads to investigate, not verified sources for the final piece.
 
 Selected from intake as CTV-052. This is an independent piece, outside the *How to Talk About AI* series.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/ai-newsroom/hn_ai_top300.csv`](research/source-material/ai-newsroom/hn_ai_top300.csv) ← `ai-newsroom/hn_ai_top300.csv`

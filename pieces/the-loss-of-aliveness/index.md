@@ -21,7 +21,18 @@ The piece should distinguish needless drudgery from difficulty that carries judg
 
 ## Source material
 
-- [Original piece project](../../../writing/pieces/loss-of-aliveness-productivity/README.md), [brief](../../../writing/pieces/loss-of-aliveness-productivity/brief.md), [research](../../../writing/pieces/loss-of-aliveness-productivity/research.md), and [article scaffold](../../../writing/pieces/loss-of-aliveness-productivity/drafts/article.md).
-- [Parent aliveness idea](../../../writing/ideas/navigating-by-aliveness/README.md) and [interview notes](../../../writing/ideas/navigating-by-aliveness/interview-notes.md).
+- [Original piece project](research/source-material/writing/pieces/loss-of-aliveness-productivity/README.md), [brief](research/source-material/writing/pieces/loss-of-aliveness-productivity/brief.md), [research](research/source-material/writing/pieces/loss-of-aliveness-productivity/research.md), and [article scaffold](drafts/loss-of-aliveness-productivity-article.md).
+- [Parent aliveness idea](research/source-material/writing/ideas/navigating-by-aliveness/README.md) and [interview notes](research/source-material/writing/ideas/navigating-by-aliveness/interview-notes.md).
 
-Selected from intake as CTV-054. The writer shortened the working title from *The Loss of Aliveness in the Pursuit of Productivity* to *The Loss of Aliveness*. The linked source material remains in its original project.
+Selected from intake as CTV-054. The writer shortened the working title from *The Loss of Aliveness in the Pursuit of Productivity* to *The Loss of Aliveness*. The linked source material is copied into this piece; the originals remain in their source projects.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/loss-of-aliveness-productivity/README.md`](research/source-material/writing/pieces/loss-of-aliveness-productivity/README.md) ← `writing/pieces/loss-of-aliveness-productivity/README.md`
+- [`research/source-material/writing/pieces/loss-of-aliveness-productivity/brief.md`](research/source-material/writing/pieces/loss-of-aliveness-productivity/brief.md) ← `writing/pieces/loss-of-aliveness-productivity/brief.md`
+- [`research/source-material/writing/pieces/loss-of-aliveness-productivity/research.md`](research/source-material/writing/pieces/loss-of-aliveness-productivity/research.md) ← `writing/pieces/loss-of-aliveness-productivity/research.md`
+- [`drafts/loss-of-aliveness-productivity-article.md`](drafts/loss-of-aliveness-productivity-article.md) ← `writing/pieces/loss-of-aliveness-productivity/drafts/article.md`
+- [`research/source-material/writing/ideas/navigating-by-aliveness/README.md`](research/source-material/writing/ideas/navigating-by-aliveness/README.md) ← `writing/ideas/navigating-by-aliveness/README.md`
+- [`research/source-material/writing/ideas/navigating-by-aliveness/interview-notes.md`](research/source-material/writing/ideas/navigating-by-aliveness/interview-notes.md) ← `writing/ideas/navigating-by-aliveness/interview-notes.md`

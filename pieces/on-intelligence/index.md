@@ -14,7 +14,16 @@ This is the series' conceptual argument about intelligence. [How Machines Learn]
 
 ## Source material
 
-- [Original *On Intelligence* project](../../../writing/ideas/on-intelligence/README.md), [full draft](../../../writing/ideas/on-intelligence/DRAFT_1.md), and [shorter draft](../../../writing/ideas/on-intelligence/DRAFT_CONDENSED.md).
-- [Original series chapter map](../../../writing/pieces/how-to-talk-about-ai/weighted-toc.md).
+- [Original *On Intelligence* project](research/source-material/writing/ideas/on-intelligence/README.md), [full draft](drafts/on-intelligence-full.md), and [shorter draft](drafts/on-intelligence-condensed.md).
+- [Original series chapter map](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md).
 
-Selected from intake as CTV-029. The source drafts remain in their original project.
+Selected from intake as CTV-029. Copies of the source drafts are in this piece; the originals remain in their source project.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/ideas/on-intelligence/README.md`](research/source-material/writing/ideas/on-intelligence/README.md) ← `writing/ideas/on-intelligence/README.md`
+- [`drafts/on-intelligence-full.md`](drafts/on-intelligence-full.md) ← `writing/ideas/on-intelligence/DRAFT_1.md`
+- [`drafts/on-intelligence-condensed.md`](drafts/on-intelligence-condensed.md) ← `writing/ideas/on-intelligence/DRAFT_CONDENSED.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md`](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) ← `writing/pieces/how-to-talk-about-ai/weighted-toc.md`

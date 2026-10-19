@@ -13,6 +13,12 @@ The historical analogy should help the argument, not stand in for it. Its claims
 
 ## Source material
 
-- [Original *Marconi Metaphor* prose](../../../nealdotwork/docs/1.md), left in its original project.
+- [Original *Marconi Metaphor* prose](research/source-material/nealdotwork/docs/1.md), copied here; the original remains in its source project.
 
 Selected from intake as CTV-050. This is an independent piece, outside the *How to Talk About AI* series.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/nealdotwork/docs/1.md`](research/source-material/nealdotwork/docs/1.md) ← `nealdotwork/docs/1.md`

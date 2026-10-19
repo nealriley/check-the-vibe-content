@@ -14,7 +14,15 @@ The piece can connect to [Feedback, Control, and Cybernetics](../feedback-contro
 
 ## Source material
 
-- [Original chapter map](../../../writing/pieces/how-to-talk-about-ai/weighted-toc.md) and [technical foundations source pack](../../../writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md).
-- [Related *On Intelligence* source](../../../writing/ideas/on-intelligence/README.md).
+- [Original chapter map](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) and [technical foundations source pack](research/source-material/writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md).
+- [Related *On Intelligence* source](research/source-material/writing/ideas/on-intelligence/README.md).
 
-Selected from intake as CTV-030. The source material remains in its original project.
+Selected from intake as CTV-030. The source material is copied into this piece; the originals remain in their source projects.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md`](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) ← `writing/pieces/how-to-talk-about-ai/weighted-toc.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md`](research/source-material/writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md) ← `writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md`
+- [`research/source-material/writing/ideas/on-intelligence/README.md`](research/source-material/writing/ideas/on-intelligence/README.md) ← `writing/ideas/on-intelligence/README.md`

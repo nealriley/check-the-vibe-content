@@ -18,7 +18,7 @@ check-the-vibe/
 ## Starting a piece
 
 1. Create a short, descriptive folder name under `pieces/`, with `index.md`, `drafts/`, and `final/` inside it.
-2. Put the working title and a short description in `index.md`. If it came from intake, record its `CTV-` ID or contributing IDs. Link to the source material so its origin remains clear.
+2. Put the working title and a short description in `index.md`. If it came from intake, record its `CTV-` ID or contributing IDs. Copy source material from other local projects into this piece, link to the local copies, and record their original locations.
 3. Add context, research, notes, freewriting, images, or other working material as the piece needs it. Use names and subfolders that make sense for that piece.
 4. Put versions you are drafting in `drafts/` and outputs you consider final in `final/`. Either folder can hold more than one file, in any useful format.
 
@@ -36,7 +36,9 @@ A sentence or two about the piece and what it might explore.
 
 ## Source material
 
-- [Original note](../../../writing/path/to/source.md)
+- [Original note](research/source-material/writing/path/to/source.md)
+
+Original location: `writing/path/to/source.md` in the local source projects.
 ```
 
 For a piece that did not come from intake, omit `intake_id`. If several intake ideas contribute to one piece, list their IDs in the prose of the index; no additional metadata is required. Add other metadata only when it solves a real need for that piece. There is no required status system, research sequence, draft count, file format, or publication path.
@@ -44,9 +46,11 @@ For a piece that did not come from intake, omit `intake_id`. If several intake i
 ## Keeping the work findable
 
 - The piece folder is the home for that piece's working material. Keep its `index.md` useful as the entry point as the work develops.
-- Link to existing source files when starting from older work. If source material is later brought into this project, keep a reference to where it came from.
+- Copy older work into the piece before linking it in `index.md`. Keep legacy drafts in `drafts/` and other source files in `research/source-material/`; preserve their original project paths in the index. The original files remain untouched.
 - An intake decision is a selection decision, not a claim that a source is accurate or ready to publish. Check time-sensitive facts and claims when writing the piece.
 - If several pieces may form a sequence, put a simple **Possible series: Name** note in each relevant `index.md`. Once the writer confirms membership, a `series: "Name"` line in each index's front matter makes those pieces easy to find. Keep every piece independently understandable; a series needs no separate folder.
+
+Run `npm run content:check` after editing indexes. It checks that every local file link in a piece index resolves within this repository, so the piece can be opened from a fresh checkout or Codespace. Web links may remain external. Copied source documents can still mention their historical project paths; the index points to the portable copies.
 
 ## Local work graph
 

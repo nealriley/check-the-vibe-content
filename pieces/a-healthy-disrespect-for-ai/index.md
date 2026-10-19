@@ -13,6 +13,14 @@ This piece is independent of the *How to Talk About AI* series, even though its 
 
 ## Source material
 
-- [Original piece project](../../../writing/pieces/a-healthy-disrespect/README.md), [brief](../../../writing/pieces/a-healthy-disrespect/brief.md), and [article draft](../../../writing/pieces/a-healthy-disrespect/drafts/article.md).
+- [Original piece project](research/source-material/writing/pieces/a-healthy-disrespect/README.md), [brief](research/source-material/writing/pieces/a-healthy-disrespect/brief.md), and [article draft](drafts/a-healthy-disrespect-article.md).
 
-Selected from intake as CTV-042. The source material remains in its original project.
+Selected from intake as CTV-042. The source material is copied into this piece; the originals remain in their source projects.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/a-healthy-disrespect/README.md`](research/source-material/writing/pieces/a-healthy-disrespect/README.md) ← `writing/pieces/a-healthy-disrespect/README.md`
+- [`research/source-material/writing/pieces/a-healthy-disrespect/brief.md`](research/source-material/writing/pieces/a-healthy-disrespect/brief.md) ← `writing/pieces/a-healthy-disrespect/brief.md`
+- [`drafts/a-healthy-disrespect-article.md`](drafts/a-healthy-disrespect-article.md) ← `writing/pieces/a-healthy-disrespect/drafts/article.md`

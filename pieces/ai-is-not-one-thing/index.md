@@ -14,6 +14,13 @@ Give readers a practical map of the unlike things people label “AI”: researc
 
 ## Source material
 
-- [Original chapter map](../../../writing/pieces/how-to-talk-about-ai/weighted-toc.md) and [content-series pitches](../../../writing/pieces/how-to-talk-about-ai/series/content-series-plan.md).
+- [Original chapter map](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) and [content-series pitches](research/source-material/writing/pieces/how-to-talk-about-ai/series/content-series-plan.md).
 
-Selected from intake as CTV-028. The source material remains in its original project.
+Selected from intake as CTV-028. The source material is copied into this piece; the originals remain in their source projects.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md`](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) ← `writing/pieces/how-to-talk-about-ai/weighted-toc.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/series/content-series-plan.md`](research/source-material/writing/pieces/how-to-talk-about-ai/series/content-series-plan.md) ← `writing/pieces/how-to-talk-about-ai/series/content-series-plan.md`

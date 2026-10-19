@@ -20,7 +20,14 @@ An essay about the point at which an AI system should stop improvising a familia
 
 ## Related local work
 
-- [You Don't Always Need MCP](../../../writing/ideas/you-dont-always-need-mcp/README.md) compares agents, scripts, commands, APIs, and other integration choices. That project asks which boundary to use; this piece asks when work can move from model judgment into a repeatable procedure.
-- [Practical agent workflows](../../../what-is-an-agent/research-pack/definition-history/practical-agent-workflows-2026.md) discusses bounded jobs, verifiable outcomes, and using ordinary automation for fixed sequences. It is background material, not evidence that every successful agent workflow should become code.
+- [You Don't Always Need MCP](research/source-material/writing/ideas/you-dont-always-need-mcp/README.md) compares agents, scripts, commands, APIs, and other integration choices. That project asks which boundary to use; this piece asks when work can move from model judgment into a repeatable procedure.
+- [Practical agent workflows](research/source-material/what-is-an-agent/research-pack/definition-history/practical-agent-workflows-2026.md) discusses bounded jobs, verifiable outcomes, and using ordinary automation for fixed sequences. It is background material, not evidence that every successful agent workflow should become code.
 
 Started directly from the writer's 18 October 2026 idea. It has no intake ID; the related files remain in their original locations.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/ideas/you-dont-always-need-mcp/README.md`](research/source-material/writing/ideas/you-dont-always-need-mcp/README.md) ← `writing/ideas/you-dont-always-need-mcp/README.md`
+- [`research/source-material/what-is-an-agent/research-pack/definition-history/practical-agent-workflows-2026.md`](research/source-material/what-is-an-agent/research-pack/definition-history/practical-agent-workflows-2026.md) ← `what-is-an-agent/research-pack/definition-history/practical-agent-workflows-2026.md`
