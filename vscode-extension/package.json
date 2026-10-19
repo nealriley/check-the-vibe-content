@@ -2,36 +2,83 @@
   "name": "check-the-vibe-vscode",
   "displayName": "Check the Vibe",
   "description": "Browse the Check the Vibe writing graph and open piece indexes.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "local",
   "private": true,
   "license": "UNLICENSED",
-  "repository": { "type": "git", "url": "git@github.com:nealriley/check-the-vibe-content.git" },
-  "engines": { "vscode": "^1.95.0" },
-  "extensionKind": ["workspace"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nealriley/check-the-vibe-content.git"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "extensionKind": [
+    "workspace"
+  ],
   "main": "./extension.js",
-  "activationEvents": ["workspaceContains:graph/cli.mjs"],
-  "capabilities": { "untrustedWorkspaces": { "supported": true } },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
   "contributes": {
     "commands": [
-      { "command": "ctv.openGraph", "title": "Open Work Graph", "category": "Check the Vibe" },
-      { "command": "ctv.openIndex", "title": "Open Piece Index", "category": "Check the Vibe" },
-      { "command": "ctv.refreshGraph", "title": "Refresh Work Graph", "category": "Check the Vibe", "icon": "$(refresh)" }
+      {
+        "command": "ctv.openGraph",
+        "title": "Open Work Graph",
+        "category": "Check the Vibe"
+      },
+      {
+        "command": "ctv.openIndex",
+        "title": "Open Piece Index",
+        "category": "Check the Vibe"
+      },
+      {
+        "command": "ctv.refreshGraph",
+        "title": "Refresh Work Graph",
+        "category": "Check the Vibe",
+        "icon": "$(refresh)"
+      }
     ],
     "views": {
       "explorer": [
-        { "id": "ctvPieces", "name": "Check the Vibe", "when": "ctv.workspace" }
+        {
+          "id": "ctvPieces",
+          "name": "Check the Vibe",
+          "when": "ctv.workspace"
+        }
       ]
     },
     "menus": {
       "commandPalette": [
-        { "command": "ctv.openGraph", "when": "ctv.workspace" },
-        { "command": "ctv.openIndex", "when": "ctv.workspace" },
-        { "command": "ctv.refreshGraph", "when": "ctv.workspace" }
+        {
+          "command": "ctv.openGraph",
+          "when": "ctv.workspace"
+        },
+        {
+          "command": "ctv.openIndex",
+          "when": "ctv.workspace"
+        },
+        {
+          "command": "ctv.refreshGraph",
+          "when": "ctv.workspace"
+        }
       ],
       "view/title": [
-        { "command": "ctv.openGraph", "when": "view == ctvPieces && ctv.workspace", "group": "navigation" },
-        { "command": "ctv.refreshGraph", "when": "view == ctvPieces && ctv.workspace", "group": "navigation" }
+        {
+          "command": "ctv.openGraph",
+          "when": "view == ctvPieces && ctv.workspace",
+          "group": "navigation"
+        },
+        {
+          "command": "ctv.refreshGraph",
+          "when": "view == ctvPieces && ctv.workspace",
+          "group": "navigation"
+        }
       ]
     }
   },

@@ -3,11 +3,6 @@
   "build": { "dockerfile": "Dockerfile" },
   "overrideCommand": false,
   "workspaceFolder": "/workspaces/check-the-vibe-content",
-  "customizations": {
-    "vscode": {
-      "extensions": ["/workspaces/check-the-vibe-content/.devcontainer/check-the-vibe.vsix"]
-    }
-  },
   "postAttachCommand": "bash /workspaces/check-the-vibe-content/.devcontainer/install-vscode-extension.sh",
   "portsAttributes": {
     "4317": {
