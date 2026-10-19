@@ -2,6 +2,7 @@
 title: "A Brief History of Thinking Machines"
 intake_id: CTV-025
 series: "How to Talk About AI"
+planning: [active]
 ---
 
 # A Brief History of Thinking Machines
