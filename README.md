@@ -14,9 +14,11 @@ npm run graph
 
 ## GitHub Codespaces
 
-Create a Codespace from `main`. Its container installs the locked dependencies and runs the graph viewer as its main service. The viewer builds the cache on startup and watches piece indexes for changes. Port 4317 is forwarded for the browser graph. Startup and sync messages are in `.cache/codespaces-graph.log`.
+Create a Codespace from `main`. Its container installs the locked dependencies and builds the graph cache. When VS Code attaches, the viewer starts, Codespaces automatically forwards port 4317, and the graph opens in a browser tab. On first use, trust the folder to complete startup. The viewer then watches piece indexes for changes. Startup and sync messages are in `.cache/codespaces-graph.log`.
 
 Codespaces' forwarded port should stay **Private**, since the viewer can open piece indexes. If the graph tab is closed, reopen **Check the Vibe graph** from the **Ports** tab. The cache and log are local to the Codespace and ignored by Git.
+
+The graph port is deliberately absent from `forwardPorts` in the dev container configuration. Pre-forwarding it prevents `onAutoForward` from opening the browser tab when the viewer starts.
 
 ## VS Code companion
 
