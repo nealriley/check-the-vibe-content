@@ -21,7 +21,17 @@ The original project has an unresolved framing question: is “donut” an adapt
 
 ## Source material
 
-- [Original software-development piece](../../../writing/pieces/donut-economics-software-development/README.md), with its [brief](../../../writing/pieces/donut-economics-software-development/brief.md), [research](../../../writing/pieces/donut-economics-software-development/research.md), and [article scaffold](../../../writing/pieces/donut-economics-software-development/drafts/article.md).
-- [Related productivity-lag idea](../../../writing/ideas/ai-productivity-lag/README.md), which distinguishes task gains from organisational and economy-wide change.
+- [Original software-development piece](research/source-material/writing/pieces/donut-economics-software-development/README.md), with its [brief](research/source-material/writing/pieces/donut-economics-software-development/brief.md), [research](research/source-material/writing/pieces/donut-economics-software-development/research.md), and [article scaffold](drafts/donut-economics-software-development-article.md).
+- [Related productivity-lag idea](research/source-material/writing/ideas/ai-productivity-lag/README.md), which distinguishes task gains from organisational and economy-wide change.
 
-Selected from intake as CTV-019. The writer changed the working title from *The Donut Economics of Software Development* to *Donut Theory of Work*. The linked source material remains in its original project.
+Selected from intake as CTV-019. The writer changed the working title from *The Donut Economics of Software Development* to *Donut Theory of Work*. The linked source material is copied into this piece; the originals remain in their source projects.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/donut-economics-software-development/README.md`](research/source-material/writing/pieces/donut-economics-software-development/README.md) ← `writing/pieces/donut-economics-software-development/README.md`
+- [`research/source-material/writing/pieces/donut-economics-software-development/brief.md`](research/source-material/writing/pieces/donut-economics-software-development/brief.md) ← `writing/pieces/donut-economics-software-development/brief.md`
+- [`research/source-material/writing/pieces/donut-economics-software-development/research.md`](research/source-material/writing/pieces/donut-economics-software-development/research.md) ← `writing/pieces/donut-economics-software-development/research.md`
+- [`drafts/donut-economics-software-development-article.md`](drafts/donut-economics-software-development-article.md) ← `writing/pieces/donut-economics-software-development/drafts/article.md`
+- [`research/source-material/writing/ideas/ai-productivity-lag/README.md`](research/source-material/writing/ideas/ai-productivity-lag/README.md) ← `writing/ideas/ai-productivity-lag/README.md`

@@ -24,6 +24,12 @@ The [Odyssey post](https://x.com/odysseyml/status/2111589148146749616?s=20) is a
 
 - [Initial research leads and claim boundaries](research/starting-points.md)
 - [Odyssey post screenshot](research/odyssey-post-2026-10-17.png) and [original post](https://x.com/odysseyml/status/2111589148146749616?s=20)
-- [On Intelligence](../../../writing/ideas/on-intelligence/DRAFT_1.md) is related local writing on simulation and world models; it remains in its original project.
+- [On Intelligence](research/source-material/writing/ideas/on-intelligence/DRAFT_1.md) is related local writing on simulation and world models; a copy is here; the original remains in its source project.
 
 Started directly from the writer's 18 October 2026 idea. It has no intake ID. The linked material is a starting point for research, not a completed survey.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/ideas/on-intelligence/DRAFT_1.md`](research/source-material/writing/ideas/on-intelligence/DRAFT_1.md) ← `writing/ideas/on-intelligence/DRAFT_1.md`

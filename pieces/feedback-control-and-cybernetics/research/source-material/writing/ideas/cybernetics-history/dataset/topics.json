@@ -1,0 +1,140 @@
+[
+  {
+    "id": "foundations-wiener",
+    "title": "Foundations, Wiener, and first-order cybernetics",
+    "summary": "Foundational works and translations around Norbert Wiener's first-order cybernetics: control, communication, feedback, prediction, and the social questions raised by automation.",
+    "research_use": "Use this area to establish the baseline vocabulary of cybernetics and to trace how Wiener's technical framework becomes a broader social theory.",
+    "source_count": 5,
+    "source_slugs": [
+      "wiener-norbert-1948-cybernetics",
+      "wiener-norbert-the-machine-age-v3-1949",
+      "wiener-norbert-the-human-use-of-human-beings-1950",
+      "wiener-norbert-the-human-use-of-human-beings-1989",
+      "wiener-norbert-cybernetics-or-the-control-and-communication-in-the-animal-and-the-machine-2nd-ed"
+    ]
+  },
+  {
+    "id": "regional-reception",
+    "title": "French, Soviet, German, and translation contexts",
+    "summary": "Regional and translation histories showing how cybernetics moved through French, Soviet, German, Italian, Portuguese, Spanish, and Serbo-Croatian contexts.",
+    "research_use": "Use this area to compare national receptions, scientific vocabularies, ideological constraints, and translation choices.",
+    "source_count": 9,
+    "source_slugs": [
+      "zheleznov-na-red-teoriya-peredakhi-elektrikheskikh-signalov-pri-nalikhii-pomekh-1953",
+      "kossa-pol-kibernetika-ot-chelovecheskogo-mozga-k-mozgu-iskusstvennomu-1958",
+      "wiener-norbert-cibernetica-y-sociedad-1958",
+      "viner-norbert-kiberetika-i-drustvo-1964",
+      "wiener-norbert-introduzione-alla-cibernetica-1966",
+      "wiener-norbert-la-cibernetica-controllo-e-comunicazione-nell-animale-e-nella-macchina-1982",
+      "gotthard-guenther-das-bewusstsein-der-maschinen-2te-aufl",
+      "ruyer-raymond-la-cybernetique-et-l-origine-de-l-information",
+      "wiener-norbert-cibernetica-e-sociedade-o-uso-humano-de-seres-humanos"
+    ]
+  },
+  {
+    "id": "macy-cybernetics-group",
+    "title": "Macy conferences and the cybernetics group",
+    "summary": "Works focused on the Macy conferences, the cybernetics group, and the early interdisciplinary network around feedback, communication, psychiatry, anthropology, mathematics, and engineering.",
+    "research_use": "Use this area to reconstruct people, meetings, disciplinary crossings, and the formation of cybernetics as an interdisciplinary field.",
+    "source_count": 1,
+    "source_slugs": [
+      "heims-steve-joshua-the-cybernetics-group-1991"
+    ]
+  },
+  {
+    "id": "second-order-autopoiesis",
+    "title": "Second-order cybernetics, autopoiesis, and constructivism",
+    "summary": "Observer-centered and self-referential cybernetics: autopoiesis, radical constructivism, self-organization, cognition, embodiment, and epistemology.",
+    "research_use": "Use this area to track the move from observed systems to observing systems, and from control models to cognition and self-production.",
+    "source_count": 11,
+    "source_slugs": [
+      "varela-maturana-uribe-1974-autopoiesis",
+      "von-glasersfeld-ernst-1974-piaget-and-the-radical-constructivist-epistemology",
+      "glanville-ranulph-a-cybernetic-development-of-epistemology-and-observation-1975",
+      "varela-thompson-rosch-the-embodied-mind-cognitive-science-and-human-experience-1991",
+      "maturana-humberto-varela-francisco-autopoiesi-e-cognizione-la-realizzazione-del-vivente-1992",
+      "pask-gordon-1996-heinz-von-foersters-self-organization-the-progenitor-of-conversation-and-interactio",
+      "maturana-humberto-r-varela-francisco-j-de-maquinas-y-seres-vivos-4th-ed-1998",
+      "von-foerster-heinz-2003-objects-tokens-for-eigen-behaviors",
+      "glanville-ranulph-2009-second-order-cybernetics",
+      "clarke-bruce-2012-from-information-to-cognition-the-systems-counterculture-heinz-von-foersters-pedag",
+      "maturana-humberto-r-varela-francisco-j-autopoiesis-and-cognition-the-realization-of-the-living"
+    ]
+  },
+  {
+    "id": "pask-learning-conversation",
+    "title": "Pask, conversation theory, learning, and performance",
+    "summary": "Gordon Pask's conversation theory, human learning, performance, education, and interaction-oriented cybernetics.",
+    "research_use": "Use this area for chapters on pedagogy, learning machines, conversation as a formal model, and cybernetics as an interaction discipline.",
+    "source_count": 3,
+    "source_slugs": [
+      "pask-gordon-the-cybernetics-of-human-learning-and-performance-1975",
+      "pask-gordon-conversation-cognition-and-learning-cybernetic-theory-and-methodology",
+      "pask-gordon-conversation-theory-applications-in-education-and-epistemology"
+    ]
+  },
+  {
+    "id": "historiography-cold-war",
+    "title": "Historiography, Cold War, politics, and critique",
+    "summary": "Historical analyses of cybernetics as a Cold War science, an epistemic style, a political vocabulary, and an object of later critique.",
+    "research_use": "Use this area for historiographic framing, political stakes, military and Cold War context, and critiques of cybernetic rationality.",
+    "source_count": 7,
+    "source_slugs": [
+      "galison-peter-1994-the-ontology-of-the-enemy-norbert-wiener-and-the-cybernetic-vision",
+      "gerovitch-slava-2001-russian-scandals-soviet-readings-of-american-cybernetics-in-the-early-years-of-",
+      "pickering-andrew-2002-cybernetics-and-the-mangle-ashby-beer-and-pask",
+      "gerovitch-slava-from-newspeak-to-cyberspeak-a-history-of-soviet-cybernetics-2004",
+      "iz-istorii-kibernetiki-2006",
+      "geoghegan-bernard-dionysius-2008-the-historiographic-conception-of-information-a-critical-survey",
+      "anti-daedalus-a-manifesto-against-the-cybernetic-hypothesis-2025"
+    ]
+  },
+  {
+    "id": "computing-design-counterculture",
+    "title": "Computing, design, media, and counterculture",
+    "summary": "Cybernetics as a bridge into computing, design research, media theory, counterculture, cultural techniques, and apparatus theories.",
+    "research_use": "Use this area to connect cybernetics to design methods, computing cultures, media theory, and postwar human-science reform.",
+    "source_count": 3,
+    "source_slugs": [
+      "pias-claus-2008-hollerith-feathered-crystal-art-science-and-computing-in-the-era-of-cybernetics",
+      "geoghegan-bernard-dionysus-the-cybernetic-apparatus-media-liberalism-and-the-reform-of-the-human-sci",
+      "dubberly-hugh-pangaro-paul-2015-how-cybernetics-connects-computing-counterculture-and-design"
+    ]
+  },
+  {
+    "id": "posthuman-cyborg-embodiment",
+    "title": "Posthumanism, cyborgs, and embodied mind",
+    "summary": "Cybernetics in posthumanist, cyborg, body, embodiment, and cognitive-science lineages.",
+    "research_use": "Use this area for the cultural afterlife of cybernetics in body theory, cyborg studies, posthumanism, and embodied cognition.",
+    "source_count": 2,
+    "source_slugs": [
+      "gray-chris-hables-ed-the-cyborg-handbook-1995",
+      "hayles-n-katherine-how-we-became-posthuman-virtual-bodies-in-cybernetics-literature-and-informatics"
+    ]
+  },
+  {
+    "id": "social-impact-governance",
+    "title": "Social impact, governance, and state-of-the-art surveys",
+    "summary": "Works that generalize cybernetics into social organization, governance, control societies, communications revolution, and survey/state-of-the-field contexts.",
+    "research_use": "Use this area for macro-social arguments and for synthesizing cybernetics as a historical force in organizations, markets, states, and institutions.",
+    "source_count": 3,
+    "source_slugs": [
+      "dechert-charles-r-ed-the-social-impact-of-cybernetics-1966",
+      "werner-liss-c-ed-cybernetics-state-of-the-art-2017",
+      "beniger-james-the-control-revolution"
+    ]
+  },
+  {
+    "id": "periodicals-resources",
+    "title": "Periodicals, diagrams, bibliographies, and research resources",
+    "summary": "Journals, diagrams, resource documents, bibliographies, and short-form materials that help map the field rather than presenting a single monograph argument.",
+    "research_use": "Use this area for field mapping, citation discovery, visualizations, and quick orientation documents.",
+    "source_count": 4,
+    "source_slugs": [
+      "margaret-mead-1968-cybernetics-of-cybernetics",
+      "cybernetic-vol-1-no-1-1985",
+      "cybernetic-vol-2-no-1-1986",
+      "dubberly-hugh-pangaro-paul-2015-social-graph-of-cybernetics"
+    ]
+  }
+]

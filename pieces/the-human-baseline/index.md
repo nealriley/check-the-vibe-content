@@ -29,9 +29,18 @@ The follow-up research sharpened one distinction: AI can expand what a junior ca
 
 ## Related local work
 
-- [Creativity and Conformity](../../../writing/pieces/creativity-and-conformity/brief.md) examines common creative defaults and cautions that human provenance alone does not guarantee expressive work. This piece focuses on a person's developing archive and skills.
-- [The Donut Economics of Software Development](../../../writing/pieces/donut-economics-software-development/brief.md) raises junior skill formation as a cost that faster code generation may obscure.
-- [What Would an AI Have to Express?](../../../writing/ideas/ai-creative-authorship/README.md) explores authorship, agency, and human provenance.
-- [Gen Z's Hiring Freeze](../../../writing/ideas/genz-entry-level-labor-market/brief.md) is adjacent early-career work; its labour-market claims should not be imported into this piece without fresh evidence.
+- [Creativity and Conformity](research/source-material/writing/pieces/creativity-and-conformity/brief.md) examines common creative defaults and cautions that human provenance alone does not guarantee expressive work. This piece focuses on a person's developing archive and skills.
+- [The Donut Economics of Software Development](research/source-material/writing/pieces/donut-economics-software-development/brief.md) raises junior skill formation as a cost that faster code generation may obscure.
+- [What Would an AI Have to Express?](research/source-material/writing/ideas/ai-creative-authorship/README.md) explores authorship, agency, and human provenance.
+- [Gen Z's Hiring Freeze](research/source-material/writing/ideas/genz-entry-level-labor-market/brief.md) is adjacent early-career work; its labour-market claims should not be imported into this piece without fresh evidence.
 
 This idea was started directly in check-the-vibe from the writer's 18 October 2026 brief. It has no intake ID. The related files above remain in their original locations.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/creativity-and-conformity/brief.md`](research/source-material/writing/pieces/creativity-and-conformity/brief.md) ← `writing/pieces/creativity-and-conformity/brief.md`
+- [`research/source-material/writing/pieces/donut-economics-software-development/brief.md`](research/source-material/writing/pieces/donut-economics-software-development/brief.md) ← `writing/pieces/donut-economics-software-development/brief.md`
+- [`research/source-material/writing/ideas/ai-creative-authorship/README.md`](research/source-material/writing/ideas/ai-creative-authorship/README.md) ← `writing/ideas/ai-creative-authorship/README.md`
+- [`research/source-material/writing/ideas/genz-entry-level-labor-market/brief.md`](research/source-material/writing/ideas/genz-entry-level-labor-market/brief.md) ← `writing/ideas/genz-entry-level-labor-market/brief.md`

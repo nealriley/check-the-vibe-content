@@ -14,7 +14,17 @@ The essay should give readers a useful vocabulary before the series moves into l
 
 ## Source material
 
-- [Original chapter brief](../../../writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-02-feedback-control-and-cybernetics.md) and [research rollup](../../../writing/pieces/how-to-talk-about-ai/research/rollups/cybernetics-feedback-rollup.md).
-- [Related cybernetics research corpus](../../../writing/ideas/cybernetics-history/README.md).
+- [Original chapter brief](research/source-material/writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-02-feedback-control-and-cybernetics.md) and [research rollup](research/source-material/writing/pieces/how-to-talk-about-ai/research/rollups/cybernetics-feedback-rollup.md).
+- [Related cybernetics research corpus](research/source-material/writing/ideas/cybernetics-history/README.md).
 
-Selected from intake as CTV-026. The source material remains in its original project.
+Selected from intake as CTV-026. The source material is copied into this piece; the originals remain in their source projects.
+
+The copied cybernetics corpus includes the notes and dataset present in the source folder. Its README describes PDFs and text sidecars that were already absent locally; those attachments are not included here.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-02-feedback-control-and-cybernetics.md`](research/source-material/writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-02-feedback-control-and-cybernetics.md) ← `writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-02-feedback-control-and-cybernetics.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/research/rollups/cybernetics-feedback-rollup.md`](research/source-material/writing/pieces/how-to-talk-about-ai/research/rollups/cybernetics-feedback-rollup.md) ← `writing/pieces/how-to-talk-about-ai/research/rollups/cybernetics-feedback-rollup.md`
+- [`research/source-material/writing/ideas/cybernetics-history/README.md`](research/source-material/writing/ideas/cybernetics-history/README.md) ← `writing/ideas/cybernetics-history/README.md`

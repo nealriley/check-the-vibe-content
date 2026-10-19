@@ -21,6 +21,12 @@ The distinctions can give the piece a path, but they need not become a rigid tax
 
 ## Source material
 
-- [Original “Androids, Cyborgs, and Robots” scrap](../../../writing/scraps/android-cyborgs-robots.md) — raw prose, left in its original project. Its historical and technical claims are starting points for research, not verified facts.
+- [Original “Androids, Cyborgs, and Robots” scrap](research/source-material/writing/scraps/android-cyborgs-robots.md) — raw prose, copied here; the original remains in its source project. Its historical and technical claims are starting points for research, not verified facts.
 
 Selected from intake as CTV-005 on 18 October 2026. The writer changed the working title from *Androids, cyborgs, and robots* to *Cyborgs, Androids, and Robots*.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/scraps/android-cyborgs-robots.md`](research/source-material/writing/scraps/android-cyborgs-robots.md) ← `writing/scraps/android-cyborgs-robots.md`

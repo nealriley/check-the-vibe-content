@@ -21,6 +21,12 @@ A piece about the kind of shared life a digital community can build when its mem
 
 ## Source material
 
-- [Original shared-memory fragment](../../../nealdotwork/material/2024-02-09_00-34-00.md) — left in its original project.
+- [Original shared-memory fragment](research/source-material/nealdotwork/material/2024-02-09_00-34-00.md) — copied here; the original remains in its source project.
 
 Selected from intake as CTV-013. The writer changed the working title from *Digital communities have shared memory* to *Digital communitas*.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/nealdotwork/material/2024-02-09_00-34-00.md`](research/source-material/nealdotwork/material/2024-02-09_00-34-00.md) ← `nealdotwork/material/2024-02-09_00-34-00.md`

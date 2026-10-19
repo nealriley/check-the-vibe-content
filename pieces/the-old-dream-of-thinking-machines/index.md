@@ -14,6 +14,13 @@ The reader question is why this dream predates the field that later acquired the
 
 ## Source material
 
-- [Original chapter brief](../../../writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-01-the-old-dream-of-thinking-machines.md) and [history source pack](../../../writing/pieces/how-to-talk-about-ai/research/source-packs/chapter-1-old-dream-thinking-machines-source-pack.md).
+- [Original chapter brief](research/source-material/writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-01-the-old-dream-of-thinking-machines.md) and [history source pack](research/source-material/writing/pieces/how-to-talk-about-ai/research/source-packs/chapter-1-old-dream-thinking-machines-source-pack.md).
 
-Selected from intake as CTV-025. The source material remains in its original project.
+Selected from intake as CTV-025. The source material is copied into this piece; the originals remain in their source projects.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-01-the-old-dream-of-thinking-machines.md`](research/source-material/writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-01-the-old-dream-of-thinking-machines.md) ← `writing/pieces/how-to-talk-about-ai/chapter-briefs/ch-01-the-old-dream-of-thinking-machines.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/research/source-packs/chapter-1-old-dream-thinking-machines-source-pack.md`](research/source-material/writing/pieces/how-to-talk-about-ai/research/source-packs/chapter-1-old-dream-thinking-machines-source-pack.md) ← `writing/pieces/how-to-talk-about-ai/research/source-packs/chapter-1-old-dream-thinking-machines-source-pack.md`

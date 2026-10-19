@@ -22,6 +22,14 @@ The opening can promise clearer questions, rather than a final verdict on what A
 
 ## Source material
 
-- [Original *How to Talk About AI* project](../../../writing/pieces/how-to-talk-about-ai/README.md), its [book brief](../../../writing/pieces/how-to-talk-about-ai/book-brief.md), and [provisional chapter map](../../../writing/pieces/how-to-talk-about-ai/weighted-toc.md). These remain in their original project; their book workflow and scope are background, not requirements for this essay.
+- [Original *How to Talk About AI* project](research/source-material/writing/pieces/how-to-talk-about-ai/README.md), its [book brief](research/source-material/writing/pieces/how-to-talk-about-ai/book-brief.md), and [provisional chapter map](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md). Copies are in this piece; the originals remain in their source project; their book workflow and scope are background, not requirements for this essay.
 
 Selected from intake as CTV-023 and reframed by the writer as the series' opening thematic essay.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/README.md`](research/source-material/writing/pieces/how-to-talk-about-ai/README.md) ← `writing/pieces/how-to-talk-about-ai/README.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/book-brief.md`](research/source-material/writing/pieces/how-to-talk-about-ai/book-brief.md) ← `writing/pieces/how-to-talk-about-ai/book-brief.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md`](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) ← `writing/pieces/how-to-talk-about-ai/weighted-toc.md`

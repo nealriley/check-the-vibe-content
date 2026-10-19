@@ -5,7 +5,8 @@
   "scripts": {
     "graph": "node graph/cli.mjs serve",
     "graph:build": "node graph/cli.mjs build",
-    "test": "node --test graph/*.test.mjs vscode-extension/test/*.test.js",
+    "content:check": "node scripts/check-portable-content.mjs",
+    "test": "npm run content:check && node --test graph/*.test.mjs vscode-extension/test/*.test.js",
     "vscode:build": "npm run build --prefix vscode-extension",
     "vscode:package": "npm run package --prefix vscode-extension",
     "vscode:bundle": "npm run vscode:package && cp vscode-extension/dist/check-the-vibe.vsix .devcontainer/check-the-vibe.vsix"

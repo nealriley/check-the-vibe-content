@@ -14,7 +14,15 @@ The essay should resist a tidy march of progress. Earlier cultural and mechanica
 
 ## Source material
 
-- [Original chapter map](../../../writing/pieces/how-to-talk-about-ai/weighted-toc.md) and [modern AI history rollup](../../../writing/pieces/how-to-talk-about-ai/research/rollups/modern-ai-history-rollup.md).
-- [Related Radio Shack angle](../../../writing/ideas/radio-shack-1991/brief.md), a possible illustration rather than the history's backbone.
+- [Original chapter map](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) and [modern AI history rollup](research/source-material/writing/pieces/how-to-talk-about-ai/research/rollups/modern-ai-history-rollup.md).
+- [Related Radio Shack angle](research/source-material/writing/ideas/radio-shack-1991/brief.md), a possible illustration rather than the history's backbone.
 
-Selected from intake as CTV-027. The source material remains in its original project.
+Selected from intake as CTV-027. The source material is copied into this piece; the originals remain in their source projects.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md`](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) ← `writing/pieces/how-to-talk-about-ai/weighted-toc.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/research/rollups/modern-ai-history-rollup.md`](research/source-material/writing/pieces/how-to-talk-about-ai/research/rollups/modern-ai-history-rollup.md) ← `writing/pieces/how-to-talk-about-ai/research/rollups/modern-ai-history-rollup.md`
+- [`research/source-material/writing/ideas/radio-shack-1991/brief.md`](research/source-material/writing/ideas/radio-shack-1991/brief.md) ← `writing/ideas/radio-shack-1991/brief.md`

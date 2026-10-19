@@ -14,6 +14,13 @@ This piece concentrates on use of an already trained model. [How Machines Learn]
 
 ## Source material
 
-- [Original chapter map](../../../writing/pieces/how-to-talk-about-ai/weighted-toc.md) and [technical foundations source pack](../../../writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md).
+- [Original chapter map](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) and [technical foundations source pack](research/source-material/writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md).
 
-Selected from intake as CTV-031. The source material remains in its original project.
+Selected from intake as CTV-031. The source material is copied into this piece; the originals remain in their source projects.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md`](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) ← `writing/pieces/how-to-talk-about-ai/weighted-toc.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md`](research/source-material/writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md) ← `writing/pieces/how-to-talk-about-ai/research/source-packs/part-II-pattern-engine-math-foundations-source-pack.md`

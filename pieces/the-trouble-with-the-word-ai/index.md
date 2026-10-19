@@ -14,7 +14,14 @@ The question here is what the **word** does to public understanding. [AI Is Not 
 
 ## Source material
 
-- [Original introduction and chapter map](../../../writing/pieces/how-to-talk-about-ai/weighted-toc.md) in the older book project.
-- [A Healthy Disrespect source project](../../../writing/pieces/a-healthy-disrespect/README.md) was previously associated with this introduction. It is now being taken forward as [a separate piece](../a-healthy-disrespect-for-ai/index.md), outside this series.
+- [Original introduction and chapter map](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) in the older book project.
+- [A Healthy Disrespect source project](research/source-material/writing/pieces/a-healthy-disrespect/README.md) was previously associated with this introduction. It is now being taken forward as [a separate piece](../a-healthy-disrespect-for-ai/index.md), outside this series.
 
-Selected from intake as CTV-024. The source material remains in its original project.
+Selected from intake as CTV-024. The source material is copied into this piece; the originals remain in their source projects.
+
+## Original locations
+
+The files above are copies. Their original paths under `/Users/neal/Code/` are:
+
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md`](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) ← `writing/pieces/how-to-talk-about-ai/weighted-toc.md`
+- [`research/source-material/writing/pieces/a-healthy-disrespect/README.md`](research/source-material/writing/pieces/a-healthy-disrespect/README.md) ← `writing/pieces/a-healthy-disrespect/README.md`
