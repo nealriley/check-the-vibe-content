@@ -8,9 +8,9 @@ const { emptyFeed, validFeed, pieceForSlug, groupsFor, isStale, findProjectRootF
 
 const FEED = '.cache/work-graph.json';
 
-function findProjectRoot() {
-  return findProjectRootFromFolders((vscode.workspace.workspaceFolders || [])
-    .filter((folder) => folder.uri.scheme === 'file').map((folder) => folder.uri.fsPath));
+function findProjectFolder() {
+  return (vscode.workspace.workspaceFolders || []).find((folder) =>
+    findProjectRootFromFolders([folder.uri.fsPath])) || null;
 }
 
 class PiecesTree {
@@ -51,12 +51,12 @@ class PiecesTree {
   }
 }
 
-function webviewHtml(webview, extensionRoot) {
-  const assets = path.join(extensionRoot, 'dist', 'webview');
+function webviewHtml(webview, extensionUri, extensionRoot) {
+  const assets = vscode.Uri.joinPath(extensionUri, 'dist', 'webview');
   const nonce = randomBytes(18).toString('base64');
-  const uri = (name) => webview.asWebviewUri(vscode.Uri.file(path.join(assets, name))).toString();
+  const uri = (name) => webview.asWebviewUri(vscode.Uri.joinPath(assets, name)).toString();
   const csp = `default-src 'none'; img-src ${webview.cspSource} data:; style-src ${webview.cspSource} 'unsafe-inline'; script-src 'nonce-${nonce}'; font-src ${webview.cspSource};`;
-  return fs.readFileSync(path.join(assets, 'index.html'), 'utf8')
+  return fs.readFileSync(path.join(extensionRoot, 'dist', 'webview', 'index.html'), 'utf8')
     .replace('<head>', `<head>\n  <meta http-equiv="Content-Security-Policy" content="${csp}">`)
     .replace('href="/style.css"', `href="${uri('style.css')}"`)
     .replace('src="/vendor/cytoscape.js"', `nonce="${nonce}" src="${uri('vendor/cytoscape.js')}"`)
@@ -65,6 +65,7 @@ function webviewHtml(webview, extensionRoot) {
 
 function activate(context) {
   let root = null;
+  let projectFolder = null;
   let feed = emptyFeed();
   let panel = null;
   let panelReady = false;
@@ -112,13 +113,13 @@ function activate(context) {
     for (const watcher of watchers) watcher.dispose();
     watchers = [];
     const previousRoot = root;
-    root = findProjectRoot();
+    projectFolder = findProjectFolder();
+    root = projectFolder?.uri.fsPath || null;
     if (previousRoot && previousRoot !== root && panel) panel.dispose();
     void vscode.commands.executeCommand('setContext', 'ctv.workspace', Boolean(root));
     if (root) {
-      const folder = vscode.Uri.file(root);
-      const feedWatcher = vscode.workspace.createFileSystemWatcher(new vscode.RelativePattern(folder, FEED));
-      const indexes = vscode.workspace.createFileSystemWatcher(new vscode.RelativePattern(folder, 'pieces/*/index.md'));
+      const feedWatcher = vscode.workspace.createFileSystemWatcher(new vscode.RelativePattern(projectFolder, FEED));
+      const indexes = vscode.workspace.createFileSystemWatcher(new vscode.RelativePattern(projectFolder, 'pieces/*/index.md'));
       for (const watcher of [feedWatcher, indexes]) {
         watcher.onDidCreate(scheduleRefresh);
         watcher.onDidChange(scheduleRefresh);
@@ -144,7 +145,7 @@ function activate(context) {
       return vscode.window.showErrorMessage('The selected piece is not in this graph.');
     }
     try {
-      const document = await vscode.workspace.openTextDocument(vscode.Uri.file(path.join(root, piece.indexPath)));
+      const document = await vscode.workspace.openTextDocument(vscode.Uri.joinPath(projectFolder.uri, piece.indexPath));
       await vscode.window.showTextDocument(document, { preview: false });
     } catch (error) {
       void vscode.window.showErrorMessage(`Cannot open ${piece.indexPath}: ${error.message}`);
@@ -154,7 +155,7 @@ function activate(context) {
   function openGraph() {
     if (!root) return vscode.window.showInformationMessage('Open the Check the Vibe workspace first.');
     if (panel) return panel.reveal();
-    const assets = vscode.Uri.file(path.join(context.extensionPath, 'dist', 'webview'));
+    const assets = vscode.Uri.joinPath(context.extensionUri, 'dist', 'webview');
     panel = vscode.window.createWebviewPanel('ctvGraph', 'Check the Vibe · Work Graph', vscode.ViewColumn.One, {
       enableScripts: true,
       localResourceRoots: [assets],
@@ -165,7 +166,7 @@ function activate(context) {
       if (message?.type === 'openIndex') void openIndex(message.slug);
     }, null, context.subscriptions);
     panel.onDidDispose(() => { panel = null; panelReady = false; }, null, context.subscriptions);
-    try { panel.webview.html = webviewHtml(panel.webview, context.extensionPath); }
+    try { panel.webview.html = webviewHtml(panel.webview, context.extensionUri, context.extensionPath); }
     catch (error) { void vscode.window.showErrorMessage(`Graph webview unavailable: ${error.message}`); panel.dispose(); }
   }
 
