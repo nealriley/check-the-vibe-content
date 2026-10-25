@@ -26,5 +26,6 @@ Google's Universal Cart is the opening case. Its October 2026 U.S. rollout makes
 - Test whether the assistant's recommendations can be explained and challenged, especially when ads, promotions, card perks, or preferred merchants affect the result.
 - Investigate what information the intermediary retains across retailers, and what the merchant sees or loses in the relationship.
 - Examine returns, fraud, mistaken purchases, and responsibility after a delegated transaction, using concrete examples rather than only protocol promises.
+- If the essay discusses AI-generated consumer research or pricing, use the [willingness-to-pay study](research/willingness-to-pay-study.md) as a caution about synthetic shoppers. It does not measure live shopping agents or actual agent-mediated transactions.
 
 The [research note](research/source-notes.md) records the starting sources and the limits of what they establish. This is a brief, not a prose draft.

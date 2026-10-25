@@ -8,6 +8,7 @@ Research note, 25 October 2026. The linked material can change as products roll 
 - [Google's Universal Cart launch note](https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/), 15 October 2026. This is Google's description of its own product and rollout.
 - [Google Developers' explanation of the Universal Commerce Protocol](https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/), 11 January 2026. This describes the intended technical standard, not proof of uptake across merchants.
 - [Google's Agent Payments Protocol update](https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/), 28 April 2026. This describes a separate payments and authorization effort.
+- Sebastian Oetzel and Tobias Maiberger, [“How price sensitive is AI? Benchmarking LLM-generated willingness to pay in pricing analytics”](https://doi.org/10.1057/s41270-026-00542-7), *Journal of Marketing Analytics* (2026). See the [local paper](oetzel-maiberger-2026-willingness-to-pay.pdf) and [research note](willingness-to-pay-study.md). This tests synthetic respondents as inputs to pricing decisions, not personal agents buying goods.
 
 ## What the launch sources say
 

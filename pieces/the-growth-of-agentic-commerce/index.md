@@ -14,6 +14,7 @@ The immediate prompt is [TechCrunch's 15 October 2026 report on the U.S. rollout
 
 - [Working brief](brief.md)
 - [Launch and protocol research notes](research/source-notes.md)
+- [Research note: synthetic shoppers and willingness to pay](research/willingness-to-pay-study.md), with a [local copy of the paper](research/oetzel-maiberger-2026-willingness-to-pay.pdf)
 
 ## Related pieces
 
