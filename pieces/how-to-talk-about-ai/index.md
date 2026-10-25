@@ -12,6 +12,8 @@ An opening essay that gives readers a map of the themes in this series and a rea
 
 This is a piece in its own right, not a folder or plan for the other pieces. It should offer an inviting overview in prose rather than a chapter list disguised as an essay.
 
+The [working brief](brief.md) develops a writer-recorded example: AI fitted into email and phone workflows, and the possibility of communication organized around relationships rather than inboxes. The [recording transcript](research/recording-transcript.md) is preserved as the source of that angle. Use it to make the series' questions concrete without turning the opening essay into a proposed replacement for email.
+
 ## Themes to bring together
 
 - **Language:** [the trouble with the word AI](../the-trouble-with-the-word-ai/index.md) and [the different things called AI](../ai-is-not-one-thing/index.md).
