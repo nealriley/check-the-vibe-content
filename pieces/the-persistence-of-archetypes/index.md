@@ -19,6 +19,6 @@ Here, “archetypes” means familiar interface and organizational patterns that
 
 ## Related pieces
 
-[How to Talk About AI](../how-to-talk-about-ai/index.md) asks how to describe AI systems clearly; this piece asks what one of those systems might change about communication. [Multiplayer Agents](../multiplayer-agents/index.md) develops shared context and authority for groups. [Digital communitas](../digital-communitas/index.md) explores shared memory and belonging in communities.
+[We Lack a Shared Vocabulary](../we-lack-a-shared-vocabulary/index.md) asks how to describe AI systems clearly; this piece asks what one of those systems might change about communication. [Multiplayer Agents](../multiplayer-agents/index.md) develops shared context and authority for groups. [Digital communitas](../digital-communitas/index.md) explores shared memory and belonging in communities.
 
 Started directly from the writer's recording. It has no intake ID or confirmed series membership.

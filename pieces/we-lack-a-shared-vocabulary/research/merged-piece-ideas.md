@@ -1,4 +1,4 @@
-# Ideas consolidated into How to Talk About AI
+# Ideas consolidated into We Lack a Shared Vocabulary
 
 The writer chose to develop the vocabulary and category questions as one essay rather than three separate pieces. The original intake identities remain visible here.
 

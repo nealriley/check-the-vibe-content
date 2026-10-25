@@ -1,14 +1,14 @@
 ---
-title: "How to Talk About AI"
+title: "We Lack a Shared Vocabulary"
 intake_id: CTV-023
 series: "How to Talk About AI"
 ---
 
-# How to Talk About AI
+# We Lack a Shared Vocabulary
 
 ## The idea
 
-An opening essay about the shared vocabulary needed to understand and assess AI. The word *AI* can blur together models, products, agents, methods, and claims about intelligence. More precise language helps readers ask what a system does, how it is used, what evidence would count, and who is responsible for its effects.
+An opening essay for the *How to Talk About AI* series about the shared vocabulary needed to understand and assess AI. The word *AI* can blur together models, products, agents, methods, and claims about intelligence. More precise language helps readers ask what a system does, how it is used, what evidence would count, and who is responsible for its effects.
 
 This essay combines the original CTV-023 opening idea with CTV-024 (*The Trouble with the Word AI*) and CTV-028 (*AI Is Not One Thing*). The writer's 25 October recording provides its working argument. It introduces distinctions that later series pieces can explore in depth; it is not a glossary or a chapter list.
 

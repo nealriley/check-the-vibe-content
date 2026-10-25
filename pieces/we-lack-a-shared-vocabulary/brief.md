@@ -1,4 +1,4 @@
-# Working brief: How to Talk About AI
+# Working brief: We Lack a Shared Vocabulary
 
 ## The essay
 
