@@ -8,25 +8,27 @@ series: "How to Talk About AI"
 
 ## The idea
 
-An opening essay that gives readers a map of the themes in this series and a reason to care about the distinctions. A conversation about “AI” can slide between a word, a history, an idea of intelligence, and a description of what a system does. The essay should show how those threads connect without trying to answer every question in advance.
+An opening essay about the shared vocabulary needed to understand and assess AI. The word *AI* can blur together models, products, agents, methods, and claims about intelligence. More precise language helps readers ask what a system does, how it is used, what evidence would count, and who is responsible for its effects.
 
-This is a piece in its own right, not a folder or plan for the other pieces. It should offer an inviting overview in prose rather than a chapter list disguised as an essay.
+This essay combines the original CTV-023 opening idea with CTV-024 (*The Trouble with the Word AI*) and CTV-028 (*AI Is Not One Thing*). The writer's 25 October recording provides its working argument. It introduces distinctions that later series pieces can explore in depth; it is not a glossary or a chapter list.
 
-The [working brief](brief.md) develops a writer-recorded example: AI fitted into email and phone workflows, and the possibility of communication organized around relationships rather than inboxes. The [recording transcript](research/recording-transcript.md) is preserved as the source of that angle. Use it to make the series' questions concrete without turning the opening essay into a proposed replacement for email.
+## Working material
 
-## Themes to bring together
+- [Working brief](brief.md)
+- [Transcript-based draft](drafts/transcript-based-draft.md)
+- [Raw Google Doc transcript](research/raw-transcript-2026-10-25.md) ([original document](https://docs.google.com/document/d/15ODqHScHkArDyigYjRgxLANJKE0t4nfEbT_ktL7W1wE/edit?usp=drivesdk))
+- [Initial idea note](idea.md) and [record of merged piece ideas](research/merged-piece-ideas.md)
 
-- **Language:** [the trouble with the word AI](../the-trouble-with-the-word-ai/index.md) and [the different things called AI](../ai-is-not-one-thing/index.md).
-- **History:** [older thinking-machine dreams](../a-brief-history-of-thinking-machines/index.md), [feedback and cybernetics](../feedback-control-and-cybernetics/index.md), and [the named field's development](../when-ai-got-its-name/index.md).
-- **Capability and mechanism:** [the question of intelligence](../on-intelligence/index.md), [how machines learn](../how-machines-learn/index.md), and [what happens from prompt to output](../from-prompt-to-output/index.md).
+## Relationship to the series
 
-The opening can promise clearer questions, rather than a final verdict on what AI is or where it is going. Each linked piece should still stand alone.
+The essay can point toward [A Brief History of Thinking Machines](../a-brief-history-of-thinking-machines/index.md), [On Intelligence](../on-intelligence/index.md), [How Machines Learn](../how-machines-learn/index.md), and [From Prompt to Output](../from-prompt-to-output/index.md) without doing their detailed work. The 24 October argument about inherited communication interfaces is now [The Inbox Is Not the Relationship](../the-inbox-is-not-the-relationship/index.md).
 
 ## Source material
 
-- [Original *How to Talk About AI* project](research/source-material/writing/pieces/how-to-talk-about-ai/README.md), its [book brief](research/source-material/writing/pieces/how-to-talk-about-ai/book-brief.md), and [provisional chapter map](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md). Copies are in this piece; the originals remain in their source project; their book workflow and scope are background, not requirements for this essay.
+- [Original *How to Talk About AI* project](research/source-material/writing/pieces/how-to-talk-about-ai/README.md), its [book brief](research/source-material/writing/pieces/how-to-talk-about-ai/book-brief.md), [provisional chapter map](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md), and [content-series plan](research/source-material/writing/pieces/how-to-talk-about-ai/series/content-series-plan.md). These are background, not a fixed workflow for this essay.
+- [A Healthy Disrespect source note](research/source-material/writing/pieces/a-healthy-disrespect/README.md) was associated with the old introduction. [A Healthy Disrespect for AI](../a-healthy-disrespect-for-ai/index.md) remains a separate piece.
 
-Selected from intake as CTV-023 and reframed by the writer as the series' opening thematic essay.
+Selected from intake as CTV-023 and combined with the approved ideas CTV-024 and CTV-028. Their separate piece folders were retired when this essay became the common home.
 
 ## Original locations
 
@@ -35,3 +37,5 @@ The files above are copies. Their original paths under `/Users/neal/Code/` are:
 - [`research/source-material/writing/pieces/how-to-talk-about-ai/README.md`](research/source-material/writing/pieces/how-to-talk-about-ai/README.md) ← `writing/pieces/how-to-talk-about-ai/README.md`
 - [`research/source-material/writing/pieces/how-to-talk-about-ai/book-brief.md`](research/source-material/writing/pieces/how-to-talk-about-ai/book-brief.md) ← `writing/pieces/how-to-talk-about-ai/book-brief.md`
 - [`research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md`](research/source-material/writing/pieces/how-to-talk-about-ai/weighted-toc.md) ← `writing/pieces/how-to-talk-about-ai/weighted-toc.md`
+- [`research/source-material/writing/pieces/how-to-talk-about-ai/series/content-series-plan.md`](research/source-material/writing/pieces/how-to-talk-about-ai/series/content-series-plan.md) ← `writing/pieces/how-to-talk-about-ai/series/content-series-plan.md`
+- [`research/source-material/writing/pieces/a-healthy-disrespect/README.md`](research/source-material/writing/pieces/a-healthy-disrespect/README.md) ← `writing/pieces/a-healthy-disrespect/README.md`
