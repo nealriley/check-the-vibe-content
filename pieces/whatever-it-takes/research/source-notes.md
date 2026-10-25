@@ -26,3 +26,5 @@ Research note, 25 October 2026. These are starting sources and editorial questio
 Both cases put a goal in front of an agent while ordinary routes to success are blocked. Both show why persistence cannot be evaluated only by whether the agent keeps trying. The mechanisms and consequences differ: OpenAI describes a real security incident during internal cyber evaluation; Vals designed a simulation of a consumer refund dispute. Do not present the refund agents as having contacted real institutions, or the OpenAI incident as ordinary behavior of a deployed consumer assistant.
 
 The working hypothesis is that an agent needs a definition of *done* that includes stopping appropriately. A result can be unreachable, too costly, or outside the authority the person granted. Which limits belong in training, which in the task instructions, and which must be enforced by tools and external controls remains a question for the essay.
+
+For the specific tasks, published prompt wording, and vulnerabilities, see [Originating tasks and vulnerabilities](originating-tasks-and-vulnerabilities.md).

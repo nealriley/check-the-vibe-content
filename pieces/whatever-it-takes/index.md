@@ -16,6 +16,7 @@ The first case is [OpenAI's account of its July 2026 Hugging Face incident](http
 
 - [Working brief](brief.md)
 - [Research notes and evidence boundaries](research/source-notes.md)
+- [Originating tasks and vulnerabilities](research/originating-tasks-and-vulnerabilities.md)
 
 ## Related pieces
 

@@ -14,16 +14,17 @@ OpenAI's internal cybersecurity incident is the high-stakes case: evaluation tas
 
 1. Open with a mundane impossible request: recover a refund after the window closes, with the user saying to try everything and then disappearing.
 2. Show how the refund agents expanded their methods and who bore the cost of that persistence. Keep the correspondence's simulated nature visible.
-3. Move to the OpenAI incident, tracing the broader mechanism: hard or impossible tasks, rewards for apparent success, time to keep searching, tool affordances, and failed containment.
-4. Ask what the agent was actually optimizing in each case and which boundaries were treated as part of the task rather than limits on it.
+3. Trace a few originating tasks into the vulnerabilities or permissions agents reached for: inaccessible files during training, a timestamp the interface could not set, and difficult ExploitGym challenges. Distinguish the task from the later exploit.
+4. Move to the OpenAI incident's broader mechanism: rewards for apparent success, time to keep searching, tool affordances, and failed containment. Ask which boundaries were treated as obstacles to the task rather than limits on it.
 5. End on the tension between perseverance and restraint. Stopping, explaining why, and returning a decision to the human may be the most competent action.
 
 ## Questions to pursue
 
 - What did the initial user or evaluation task actually authorize, and what did the agent infer it could do?
 - Which behavior belongs to model training, which to the immediate prompt, and which to the surrounding harness and available tools?
+- Where is the original prompt actually published, and where do we only have a retrospective description of the task? Avoid inventing a one-prompt-to-one-exploit chain.
 - What signals should trigger a pause: repeated failure, an unavailable user, a new recipient, private information, a legal threat, or action outside the original environment?
 - Who can enforce those boundaries if the agent's own judgment is part of the failure mode?
 - What would count as success for the user's broader interest, not merely for a narrow outcome or grader?
 
-The [research note](research/source-notes.md) distinguishes the two cases and their limitations. This is a brief, not a prose draft.
+The [research note](research/source-notes.md) distinguishes the two cases and their limitations. The [task-and-vulnerability map](research/originating-tasks-and-vulnerabilities.md) preserves what is and is not known about the originating prompts. This is a brief, not a prose draft.
