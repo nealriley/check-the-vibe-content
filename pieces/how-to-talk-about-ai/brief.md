@@ -26,7 +26,7 @@ The essay should feel like an invitation into the series, not an encyclopedia of
 
 - [On Intelligence](../on-intelligence/index.md) owns the sustained argument about what intelligence means. [How Machines Learn](../how-machines-learn/index.md) and [From Prompt to Output](../from-prompt-to-output/index.md) own the more detailed mechanism.
 - The former “The Trouble with the Word AI” and “AI Is Not One Thing” are incorporated here rather than remaining separate essays. Their distinct questions are recorded in [merged piece ideas](research/merged-piece-ideas.md).
-- The 24 October argument about inherited communication systems is now [The Inbox Is Not the Relationship](../the-inbox-is-not-the-relationship/index.md). It needs its own development and evidence.
+- The 24 October argument about inherited communication systems is now [The Persistence of Archetypes](../the-persistence-of-archetypes/index.md). It needs its own development and evidence.
 
 ## Checks before publication
 

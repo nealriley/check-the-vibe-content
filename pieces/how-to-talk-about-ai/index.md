@@ -21,7 +21,7 @@ This essay combines the original CTV-023 opening idea with CTV-024 (*The Trouble
 
 ## Relationship to the series
 
-The essay can point toward [A Brief History of Thinking Machines](../a-brief-history-of-thinking-machines/index.md), [On Intelligence](../on-intelligence/index.md), [How Machines Learn](../how-machines-learn/index.md), and [From Prompt to Output](../from-prompt-to-output/index.md) without doing their detailed work. The 24 October argument about inherited communication interfaces is now [The Inbox Is Not the Relationship](../the-inbox-is-not-the-relationship/index.md).
+The essay can point toward [A Brief History of Thinking Machines](../a-brief-history-of-thinking-machines/index.md), [On Intelligence](../on-intelligence/index.md), [How Machines Learn](../how-machines-learn/index.md), and [From Prompt to Output](../from-prompt-to-output/index.md) without doing their detailed work. The 24 October argument about inherited communication interfaces is now [The Persistence of Archetypes](../the-persistence-of-archetypes/index.md).
 
 ## Source material
 

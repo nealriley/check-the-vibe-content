@@ -1,14 +1,14 @@
 ---
-title: "The Inbox Is Not the Relationship"
+title: "The Persistence of Archetypes"
 ---
 
-# The Inbox Is Not the Relationship
+# The Persistence of Archetypes
 
 ## The idea
 
-AI often enters communication by taking a person's place inside an existing phone or email workflow. This essay asks whether that is the limit of the change. Email's open protocols remain useful, but the inbox is one way of organizing messages. The work behind those messages may be a request, a decision, a commitment, or a relationship. What would communication look like if those became easier to see and sustain?
+New capabilities often arrive inside familiar forms. AI can answer a call or sort and draft email while leaving the phone workflow and the inbox intact. This essay asks why these inherited patterns persist and when they stop helping us see the work underneath. The inbox is its central example: email's open protocols remain useful, but a list of messages is only one way to organize requests, decisions, commitments, and relationships.
 
-The idea grew from the writer's 24 October recording. Its account of overlapping technological revolutions is the frame; the inherited inbox and the possibility of agents acting as representatives are the essay's concrete argument.
+Here, “archetypes” means familiar interface and organizational patterns that we carry into a new technological era. The idea grew from the writer's 24 October recording. Its account of overlapping technological revolutions provides the frame; phone and email workflows make the persistence visible. Agents acting as representatives point toward a possible change in form, with questions of context and authority still open.
 
 ## Working material
 
