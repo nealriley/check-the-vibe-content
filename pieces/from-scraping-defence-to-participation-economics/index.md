@@ -16,6 +16,7 @@ The piece should ask what a site and a user need to know before an agent can par
 - [Writer's Google Doc draft, V2 (local copy)](drafts/from-scraping-defence-to-participation-economics-v2.md)
 - [Integrated working brief](brief.md)
 - [Source notes and evidence boundaries](research/source-notes.md)
+- [Open3DLab crawler case: consent, creator rights, and hosting costs](research/open3dlab-crawler-case.md)
 
 ## Related pieces
 
