@@ -2,7 +2,6 @@
 title: "We Lack a Shared Vocabulary"
 intake_id: CTV-023
 series: "How to Talk About AI"
-planning: [active]
 ---
 
 # We Lack a Shared Vocabulary

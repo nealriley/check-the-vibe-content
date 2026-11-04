@@ -1,6 +1,5 @@
 ---
 title: "The Persistence of Archetypes"
-planning: [active]
 ---
 
 # The Persistence of Archetypes
