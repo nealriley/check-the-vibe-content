@@ -1,5 +1,6 @@
 ---
 title: "Mechanisms and Organisms"
+planning: [active]
 ---
 
 # Mechanisms and Organisms
@@ -24,4 +25,4 @@ The present-day half should make the argument in its own voice. It should not ke
 
 [A Brief History of Thinking Machines](../a-brief-history-of-thinking-machines/index.md) covers the older wish to build machines that think; this piece takes up one 1960s conversation about how engineers saw their machines. [Feedback, Control and Cybernetics](../feedback-control-and-cybernetics/index.md) explains the feedback vocabulary that was current when Watts spoke. [The Loss of Aliveness](../the-loss-of-aliveness/index.md) asks what AI-assisted work leaves out of the experience of working, a question close to the organism side of this contrast.
 
-Started directly from the writer's new idea. No intake ID, confirmed series, or planning state has been assigned. The 1969 date and IBM Systems Group setting are given by both the video and the organism.earth library; neither is a primary record. The YouTube upload plays the talk's two halves out of order.
+Started directly from the writer's new idea. No intake ID or confirmed series has been assigned. The 1969 date and IBM Systems Group setting are given by both the video and the organism.earth library; neither is a primary record. The YouTube upload plays the talk's two halves out of order.
